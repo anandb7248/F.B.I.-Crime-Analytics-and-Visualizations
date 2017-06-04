@@ -1,7 +1,7 @@
 # Stat331-Final_Project
 > Stat 331 Final Project. Taken Spring 2017 at California Polytechnic San Luis Obispo. The project calls for a creation of an interactive web app using R Studio and the Shiny Library.
 
-### Description of Data
+## Description of Data
 > Our data is from the Federal Bureau of Ivestigation. The Data describes violent crime in the United States from 1996 to 2015. The FBI has partitioned violent crime into four sets with decreasing seriousness: Murder, Rape, Robbery, and Aggravated Assult. If a crime has multiple offenses occuring, only the most serious offense is counted. The data is composed into 24 different tables, where each table represents different granularity of focus.
 
   * __Granularity of Focus:__
@@ -42,3 +42,11 @@
       * Table 23: "Offense Analysis: Number and Perent change, 2014-2015" [14,420 agencies; 2015 estimated population 283,415,007]
       * Table 24: "Property Stolen and Recovered, by Type and Value 2015"
 
+## References
+ * [Shiny by R-Studio](http://shiny.rstudio.com/)
+
+ * [FBI DATA](https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/offenses-known-to-law-enforcement/violent-crime/violentcrimemain_final)
+
+ * [Leaflet Tutorial](http://rstudio.github.io/leaflet/)
+
+ * [ggplot2 Cheatsheat](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
