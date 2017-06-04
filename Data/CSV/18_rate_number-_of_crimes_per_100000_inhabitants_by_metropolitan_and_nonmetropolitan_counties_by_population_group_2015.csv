@@ -1,0 +1,15 @@
+Table 18,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rate:  Number of Crimes per 100,000 Inhabitants",,,,,,,,,,,,,,,,,,,,,,,,,
+"by Metropolitan and Nonmetropolitan Counties1 by Population Group, 2015",,,,,,,,,,,,,,,,,,,,,,,,,
+Population group,Population range,Violent crime,,"Murder andnonnegligent manslaughter",,"Rape(revised definition)2",,"Rape(legacy definition)3",,Robbery,,Aggravated assault,,Property crime,,Burglary,,Larceny-theft,,Motor vehicle theft,,"Number of agencies","2015estimated population",,
+,,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,"Number of offenses known",Rate ,,,,
+"METROPOLITANCOUNTIES","100,000 and over","122,007",281.4,"1,576",3.6,"10,779",28.1,955,19.0,"28,636",66.0,"80,061",184.6,"794,835","1,833.1","176,719",407.6,"547,922","1,263.6","70,194",161.9,165,"43,360,662",,
+,"25,000 to 99,999","45,480",193.2,612,2.6,"5,523",29.5,702,14.5,"5,094",21.6,"33,549",142.5,"324,902","1,380.0","92,196",391.6,"209,870",891.4,"22,836",97.0,451,"23,543,869",,
+,"Under 25,000","18,003",368.3,236,4.8,"2,854",68.7,117,16.0,"1,814",37.1,"12,982",265.6,"110,103","2,252.5","25,169",514.9,"67,994","1,391.0","16,940",346.6,"1,338","4,888,131",,
+"NONMETROPOLITANCOUNTIES","25,000 and over","17,429",177.2,282,2.9,"2,579",32.9,244,12.2,"1,156",11.8,"13,168",133.9,"123,720","1,258.0","39,809",404.8,"76,130",774.1,"7,781",79.1,264,"9,835,023",,
+,"10,000 to 24,999","14,751",162.6,255,2.8,"1,903",25.2,252,16.5,814,9.0,"11,527",127.1,"100,876","1,111.9","34,161",376.5,"59,970",661.0,"6,745",74.3,563,"9,072,400",,
+,"Under 10,000","9,856",239.8,204,5.0,"2,146",59.1,72,15.0,354,8.6,"7,080",172.3,"54,895","1,335.6","16,697",406.2,"32,698",795.6,"5,500",133.8,"1,424","4,110,068",,
+1 Metropolitan counties include sheriffs and county law enforcement agencies associated with a Metropolitan Statistical Area. Nonmetropolitan counties include sheriffs and county law enforcement agencies that are not associated with a Metropolitan Statistical Area. The offenses from state police agencies are not included in this table.  ,,,,,,,,,,,,,,,,,,,,,,,,,
+2 The figures shown in this column for the offense of rape were reported using the revised Uniform Crime Reporting (UCR) definition of rape. See the data declaration for further explanation.,,,,,,,,,,,,,,,,,,,,,,,,,
+3 The figures shown in this column for the offense of rape were reported using the legacy UCR definition of rape. See the data declaration for further explanation.,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
