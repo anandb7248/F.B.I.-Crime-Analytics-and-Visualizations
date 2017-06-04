@@ -25,7 +25,7 @@ dashboardPage(
                ),
                
                box(selectizeInput('choice', 'Violent Crimes Committed', 
-                                      choices = c('Murder'=1, 'Rape'=2, 'Aggravated Assult'=3, 'Robbery'=4),
+                                      choices = c('Murder', 'Rape', 'Aggravated Assult', 'Robbery'),
                                       multiple = TRUE, options = list(maxItems = 4))
                )
             ),

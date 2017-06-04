@@ -10,8 +10,8 @@ function(input, output) {
    
    
    output$LineChart <- renderPlot({
-      ggplot(data, aes(year, violent_crime_rate)) + geom_point() + xlim(input$range) +
-         labs(x = "Year", y = "Violent Crime Rate")
+      ggplot(data, aes(year, rape_rate)) + geom_point() + geom_line(aes(color=rape_rate)) + 
+         xlim(input$range) + labs(x = "Year", y = "Crime Rate") + title(main = 'Crime Rate in United States')
       
    })
    
