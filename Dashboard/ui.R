@@ -5,7 +5,7 @@ library(leaflet)
 
 
 dashboardPage(
-   skin = 'black',
+   skin = 'red',
    dashboardHeader(title = "Crime in the U.S."),
    
    dashboardSidebar(
@@ -21,7 +21,7 @@ dashboardPage(
          tabItem(tabName = "Line_Chart",
             fluidRow(
                box(title = 'Range of Years',
-                     sliderInput('range', "Range of Years:", min = 1995, max = 2015, value = c(2010,2015))
+                     sliderInput('range', "Range of Years:", min = 1995, max = 2015, value = c(1995,2015))
                ),
                
                box(selectizeInput('choice', 'Violent Crimes Committed', 
@@ -31,10 +31,8 @@ dashboardPage(
             ),
                
             fluidRow(
-               column(12,
-                      box(title='Rates of Violent Crime', status='danger', solidHeader = TRUE,
-                          collapsible = TRUE, plotOutput('LineChart', height = 250))
-               )
+               box(title='Rates of Violent Crime', width = 12, status='primary',
+                   plotOutput('LineChart', height = 350))
             )
          ),
             
