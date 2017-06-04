@@ -24,9 +24,8 @@ dashboardPage(
                      sliderInput('range', "Range of Years:", min = 1995, max = 2015, value = c(1995,2015))
                ),
                
-               box(selectizeInput('choice', 'Violent Crimes Committed', 
-                                      choices = c('Murder', 'Rape', 'Aggravated Assult', 'Robbery'),
-                                      multiple = TRUE, options = list(maxItems = 4))
+               box(selectInput('choice', 'Violent Crimes Committed', 
+                                      choices = c('Murder' = 7, 'Rape'=9, 'Aggravated Assult'=13, 'Robbery'=11))
                )
             ),
                
