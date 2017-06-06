@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(ggplot2)
 library(leaflet)
-
+library(reshape)
 
 dashboardPage(
    skin = 'red',
@@ -24,16 +24,18 @@ dashboardPage(
                      sliderInput('range', "Range of Years:", min = 1995, max = 2015, value = c(1995,2015))
                ),
               
-               box(checkboxGroupInput('choice', label = h3("Select Specific Crime Rates to Graph"), selected = NULL, choices = c('Murder' = "murder_rate", 'Rape'="rape_rate", 'Aggravated Assult'="assault_rate", 'Robbery'="robbery_rate"))
-               box(selectInput('choice', 'Violent Crimes Committed', 
-                                      choices = c('Murder'=7, 'Rape'=9, 'Aggravated Assult'=13, 'Robbery'=11))
+               box(checkboxGroupInput('choice', label = h3("Select Violent Crime to Graph"), 
+                                      selected = NULL, choices = c('Murder' = "murder_rate", 'Rape'="rape_rate", 'Aggravated Assult'="assault_rate", 
+                                                                   'Robbery'="robbery_rate")))
+               #box(selectInput('choice', 'Violent Crimes Committed', 
+               #                       choices = c('Murder'=7, 'Rape'=9, 'Aggravated Assult'=13, 'Robbery'=11))
 
-               )
+               #)
             ),
                
             fluidRow(
-               box(title='Rates of Violent Crime', width = 12, status='primary',
-                   plotOutput('LineChart', height = 350))
+               box(title='Rates of Violent Crime per 100,000 Inhabitants', width = 12, 
+                   status='primary', plotOutput('LineChart', height = 350))
             )
          ),
             

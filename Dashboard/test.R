@@ -1,4 +1,3 @@
-install.packages("reshape")
 library(reshape)
 
 temp <- subset(data,select = -c(X))

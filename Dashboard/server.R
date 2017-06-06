@@ -22,8 +22,8 @@ function(input, output) {
      temp <- subset(temp, select = c("year",input$choice))
      mdf <- melt(temp, id.vars="year")
      g<-ggplot(mdf, aes(x=year,y=value,colour=variable)) + 
-       xlim(input$range) + labs(x = "Year", y = paste("Crime Rate")) + 
-       title(main = 'Crime Rate in United States') + geom_line()
+       xlim(input$range) + labs(x = "Year", y = paste("Crime Rate per 100,000 Inhabitants")) + 
+       title(main = 'Violent Crime Rates in the U.S.') + geom_line()
      print(g)
    })
    
