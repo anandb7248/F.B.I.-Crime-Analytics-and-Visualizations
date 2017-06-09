@@ -23,13 +23,11 @@ dashboardPage(
                box(title = 'Range of Years',
                      sliderInput('range', "Range of Years:", min = 1995, max = 2015, value = c(1995,2015))
                ),
-               
-               
-               #box(selectizeInput('choice', 'Violent Crimes Committed', 
-                #                      choices = c('Murder' = 7, 'Rape'=9, 'Aggravated Assult'=13, 'Robbery'=11))
-               #)
-               
+              
                box(checkboxGroupInput('choice', label = h3("Select Specific Crime Rates to Graph"), selected = NULL, choices = c('Murder' = "murder_rate", 'Rape'="rape_rate", 'Aggravated Assult'="assault_rate", 'Robbery'="robbery_rate"))
+               box(selectInput('choice', 'Violent Crimes Committed', 
+                                      choices = c('Murder'=7, 'Rape'=9, 'Aggravated Assult'=13, 'Robbery'=11))
+
                )
             ),
                
