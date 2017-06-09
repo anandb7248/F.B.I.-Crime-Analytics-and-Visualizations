@@ -1,0 +1,29 @@
+---
+title: "Learn Leaflet"
+date: "June 09, 2017"
+output: html_notebook
+---
+
+```{r}
+library(leaflet)
+library(maps)
+```
+
+#### Using maps library
+* create data frame using maps() 
+* pass that data frame to leaflet data parameter
+```{r}
+mapStates = map("state", regions=c('California', 'Nevada', 'Colorado'), fill = TRUE, plot = FALSE)
+leaflet(data = mapStates) %>% 
+   addTiles() %>%
+   addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE)
+```
+
+
+```{r}
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+m  # Print the map
+```
+

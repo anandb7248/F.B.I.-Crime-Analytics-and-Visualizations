@@ -1,0 +1,24 @@
+---
+title: "Scraping Table 09 of FBI Data"
+date: "June 08, 2017"
+output: html_notebook
+---
+
+```{r}
+library(XML)
+library(rvest)
+library(magrittr)
+library(ggmap)
+library(maps)
+```
+
+ >[table 09]('https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/table-9/table_9_offenses_known_to_law_enforcement_by_state_by_university_and_college_2015')
+ 
+```{r}
+url <- 'https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/table-9/table-9-state-pieces/table_9_offenses_known_to_law_enforcement_alabama_by_university_and_college_2015.xls'
+data <- url %>%
+   read_html() %>%
+   html_nodes(css="table") %>%
+   html_table()
+```
+

@@ -4,6 +4,7 @@ library(ggplot2)
 library(leaflet)
 library(reshape)
 
+
 function(input, output) {
   data <- read.csv('01_crime_in_the_united_states_1996-2015.csv')
   
