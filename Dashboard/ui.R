@@ -7,7 +7,7 @@ library(reshape)
 
 header <- dashboardHeader(
    title = "Crime in the U.S.",
-   titleWidth = 350
+   titleWidth = 250
 )
    
 sidebar <-   dashboardSidebar(
@@ -41,7 +41,29 @@ body <- dashboardBody(
       ),
          
       # Second tab content
-      tabItem(tabName = "Map", h2("Map of United States Using Leaflet"))
+      tabItem(tabName = "Map", h2("Map of United States Using Leaflet"),
+         fluidRow(
+            column(width = 9,
+               box(width = NULL, solidHeader = TRUE, leafletOutput("mymap", height = 500))
+            ),
+            column(width = 3,
+               box(width = NULL, status = "warning", selectInput("crime", "Select Crime",
+                  choices = c("Murder" = 1,
+                              "Rape" = 2,
+                              "Assult" = 3,
+                              "Burglary" = 4),
+                              selected = "1"),
+                   uiOutput("timeSinceLastUpdate"),
+                   actionButton("submit", "See Map"),
+                   p(class = "text-muted", br(), "Data only from 2015!")
+               )
+            )
+         ),
+         
+         fluidRow(
+            h2('Put something Here!')
+         )
+      )
    )
 )
 

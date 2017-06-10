@@ -41,8 +41,9 @@ data <- cbind(data,STATE_FIPS)
 data$STATE_FIPS <- factor(data$STATE_FIPS)
 states <- merge(states_shp,data,by="STATE_FIPS",all=TRUE)
 
-pal <- colorQuantile("Reds",NULL,n=5)
+write.csv(states, file="choro_state_crimerate_2015.csv")
 
+pal <- colorQuantile("Reds",NULL,n=5)
 state_popup <-paste("<strong>State: </strong>", 
                    states$State, 
                    "<br><strong>Violent Crime per 100,000, 2008: </strong>", 
