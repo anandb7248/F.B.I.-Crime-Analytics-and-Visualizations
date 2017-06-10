@@ -7,22 +7,23 @@ library(rgdal)
 library(cdlTools)
 library(magrittr)
 library(leaflet)
-library(readxl)
 
 
 function(input, output) {
-  us_crime <- read.csv('01_crime_in_the_united_states_1996-2015.csv')
+  data <- read.csv('01_crime_in_the_united_states_1996-2015.csv')
   state_crime <- read.csv('2015_crimerates_bystate.csv')
   
- 
+  
+  
+  
    choices <- reactive({
-     return(paste(input$choice,collapse=", "))
+     return(paste0(input$choice,collapse=", "))
    })
    
    
    output$LineChart <- renderPlot({
      #mdf <- melt(temp, id.vars="year", value.name=c("robbery_rate"))
-     temp <- subset(us_crime,select = -c(X))
+     temp <- subset(data,select = -c(X))
      temp <- subset(temp, select = c("year",input$choice))
      mdf <- melt(temp, id.vars="year")
      g<-ggplot(mdf, aes(x=year,y=value,colour=variable)) + 
@@ -31,12 +32,12 @@ function(input, output) {
      print(g)
    })
    
-   #output$mymap <- renderLeaflet({
-   #   mapStates = map("state", regions=c('California', 'Nevada', 'Colorado'), fill = TRUE, plot = FALSE)
-   #   leaflet(data = mapStates) %>% 
-    #     addTiles() %>%
-    #     addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE)
-   #})
+   output$mymap <- renderLeaflet({
+      mapStates = map("state", regions=c('California', 'Nevada', 'Colorado'), fill = TRUE, plot = FALSE)
+      leaflet(data = mapStates) %>% 
+         addTiles() %>%
+         addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE)
+   })
    
    
 }

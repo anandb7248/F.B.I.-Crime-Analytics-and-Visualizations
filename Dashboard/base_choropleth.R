@@ -1,5 +1,6 @@
 install.packages("readxl")
 install.packages("sqldf")
+install.packages("rgdal")
 install.packages("cdlTools")
 install.packages("magrittr")
 
@@ -10,9 +11,11 @@ library(magrittr)
 library(leaflet)
 
 data <- read.csv("2015_crimerates_bystate.csv",stringsAsFactors = F)
+data <- data[, -1]
+
 states_shp <- readOGR(dsn="./states_shp",layer = "states")
 # Remove district of columbia
-states_shp <- states_shp[!grepl("District of Columbia", states_shp$STATE_NAME),]
+states_shp <- states_shp[!grepl("District of Columbia", states_shp$STATE_NAME), ]
 
 #Obtain fip codes for each US state
 STATE_FIPS <- tapply(data$State, data$State, fips)
@@ -20,7 +23,7 @@ STATE_FIPS <- as.character(STATE_FIPS)
 
 for(i in 1:length(STATE_FIPS)){
   if(!is.na(STATE_FIPS[i]) & nchar(STATE_FIPS[i]) == 1){
-    STATE_FIPS[i] <- paste0("0",STATE_FIPS[i])
+    STATE_FIPS[i] <- paste("0",STATE_FIPS[i], sep='')
   }
 }
 
@@ -40,7 +43,7 @@ states <- merge(states_shp,data,by="STATE_FIPS",all=TRUE)
 
 pal <- colorQuantile("Reds",NULL,n=5)
 
-state_popup <-paste0("<strong>State: </strong>", 
+state_popup <-paste("<strong>State: </strong>", 
                    states$State, 
                    "<br><strong>Violent Crime per 100,000, 2008: </strong>", 
                    states$Robbery)

@@ -7,6 +7,7 @@ output: html_notebook
 ```{r}
 library(leaflet)
 library(maps)
+library(RColorBrewer)
 ```
 
 #### Using maps library
