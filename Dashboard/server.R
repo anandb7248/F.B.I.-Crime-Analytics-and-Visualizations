@@ -13,9 +13,10 @@ library(maps)
 
 function(input, output) {
   us_crime <- read.csv('01_crime_in_the_united_states_1996-2015.csv')
-  state_crime <- read.csv('2015_crimerates_bystate.csv')
-  data <- read.csv("2015_crimerates_bystate.csv",stringsAsFactors = F) #used to output choropleth plot
-  data <- data[, -1]
+  data <- read.csv("2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
+  
+  #us_crime <- us_crime[, -1]
+  #data <- data[, -1]
   #choro <- read.csv('choro_state_crimerate_2015.csv')
   
  
@@ -25,10 +26,8 @@ function(input, output) {
    
    
    output$LineChart <- renderPlot({
-     #mdf <- melt(temp, id.vars="year", value.name=c("robbery_rate"))
-     temp <- subset(us_crime,select = -c(X))
-     temp <- subset(temp, select = c("year",input$choice))
-     mdf <- melt(temp, id.vars="year")
+     years <- subset(us_crime, select = c("year",input$choice))
+     mdf <- melt(years, id.vars="year")
      g<-ggplot(mdf, aes(x=year,y=value,colour=variable)) + 
        xlim(input$range) + labs(x = "Year", y = paste("Crime Rate per 100,000 Inhabitants")) + 
        title(main = 'Violent Crime Rates in the U.S.') + geom_line()
@@ -36,9 +35,9 @@ function(input, output) {
    })
    
    #output$mymap <- renderLeaflet({
-      #mapStates = map("state", regions=c('California', 'Nevada', 'Colorado'), fill = TRUE, plot = FALSE)
-      #leaflet(data = mapStates) %>% 
-         #addTiles() %>%
+      #mapStates = map('state', fill = TRUE, plot = FALSE)
+      #leaflet(states_shp) %>% 
+        #addTiles() %>%
          #addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE)
    #})
    
@@ -67,18 +66,26 @@ function(input, output) {
    # So the function fip has implementation problems.
    # So for minnesota and delaware I am placing fip code manually.
    
-   data$STATE_FIPS <- factor(data$STATE_FIPS)
-   states <- merge(states_shp,data,by="STATE_FIPS",all=TRUE)
+   #data$STATE_FIPS <- factor(data$STATE_FIPS)
+   states <- merge(states_shp, data, by="STATE_FIPS",all=TRUE)
    
+   rate_crime <- reactive({
+      return(input$crime)
+   })
    
    output$mymap <- renderLeaflet({
-      pal <- colorQuantile("Reds",NULL,n=5)
+      pal <- colorQuantile("Oranges",NULL,n=5)
       state_popup <-paste("<strong>State: </strong>", states$State, 
-                          "<br><strong>Violent Crime per 100,000, 2008: </strong>", states$Robbery)
+                          "<br><strong>Violent Crime:</strong>", rate_crime(),
+                          "<br><strong> Year: </strong>", '2008',
+                          "<br><strong> per 100,000,000 people </strong>")
       
       leaflet(data = states) %>%
+         setView(lng=-96.416015625, lat= 39.639537564366684, zoom = 4.0) %>%
          addProviderTiles("CartoDB.Positron") %>%
-         addPolygons(fillColor = ~pal(Robbery),
+         addLegend(pal = pal, values = ~data[,rate_crime()], opacity = 0.7, 
+                   title = 'Rate per 100,000', position = "bottomright") %>%
+         addPolygons(fillColor = ~pal(data[ , rate_crime()]),
                      fillOpacity=0.8,
                      color="#2739c4",
                      weight=1,

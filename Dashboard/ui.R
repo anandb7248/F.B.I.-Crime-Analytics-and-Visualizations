@@ -12,24 +12,24 @@ header <- dashboardHeader(
    
 sidebar <-   dashboardSidebar(
    sidebarMenu(
-   menuItem("Line Chart", tabName = "Line_Chart", icon = icon("line-chart")),
+   menuItem("Line Chart", tabName = "LineChart", icon = icon("line-chart")),
    menuItem("Map", tabName = "Map", icon = icon("map")),
-   menuItem("Pie Chart", tabName = "pie_chart", icon = icon("pie-chart")),
-   menuItem("University", tabName = "university", icon = icon("university"))
+   menuItem("Pie Chart", tabName = "PieChart", icon = icon("pie-chart")),
+   menuItem("University", tabName = "University", icon = icon("university"))
    )
 )
    
 body <- dashboardBody(
    tabItems(
    # First tab content
-      tabItem(tabName = "Line_Chart",
+      tabItem(tabName = "LineChart", h2('Crime Rate Trends in U.S.', style=('text-align:center;')),
          fluidRow(
             box(title = 'Range of Years',
                 sliderInput('range', "Range of Years:", min = 1995, max = 2015, value = c(1995,2015))
             ),
                     
             box(checkboxGroupInput('choice', label = h3("Select Violent Crime to Graph"), 
-                                   selected = NULL, choices = c('Murder' = "murder_rate", 'Rape'="rape_rate", 'Aggravated Assult'="assault_rate", 
+                                   selected = 'assault_rate', choices = c('Murder' = "murder_rate", 'Rape'="rape_rate", 'Aggravated Assult'="assault_rate", 
                                                                 'Robbery'="robbery_rate")))
                     
          ),
@@ -41,34 +41,47 @@ body <- dashboardBody(
       ),
          
       # Second tab content
-      tabItem(tabName = "Map", h2("Map of United States Using Leaflet"),
+      tabItem(
+         tabName = "Map", 
+         h2("Rate of Violent Crime in U.S. per 100,0000", style=('text-align: center;')),
+         
          fluidRow(
-            column(width = 9,
+            column(width = 12,
                box(width = NULL, solidHeader = TRUE, leafletOutput("mymap", height = 500))
-            ),
-            column(width = 3,
-               box(width = NULL, status = "warning", selectInput("crime", "Select Crime",
-                  choices = c("Murder" = 1,
-                              "Rape" = 2,
-                              "Assult" = 3,
-                              "Burglary" = 4),
-                              selected = "1"),
-                   uiOutput("timeSinceLastUpdate"),
-                   actionButton("submit", "See Map"),
-                   p(class = "text-muted", br(), "Data only from 2015!")
-               )
             )
          ),
          
          fluidRow(
-            h2('Put something Here!')
+            box(width = NULL, status = "warning", 
+                selectInput("crime", "Select Crime",
+                            choices = c("Murder" = 'Murder',"Rape" = 'Rape',
+                                        "Assult" = 'Assult',
+                                        "Burglary" = 'Burglary'),
+                            selected = "Murder")
+               )
          )
+      ),
+      
+      #third tab item
+      tabItem(
+         tabName = 'PieChart',
+         h2('Proportion of Violent Crimes per Year', style=('text-align: center;')),
+         
+         fluidRow(),
+         
+         fluidRow()
+      ),
+      
+      tabItem(
+         tabName = 'University',
+         h2('Crime at U.S. Universities', style=('text-align:center;')),
+         
+         fluidRow(),
+         
+         fluidRow()
       )
    )
 )
-
-
-
 
 dashboardPage(
    skin = 'red',
