@@ -48,7 +48,7 @@ body <- dashboardBody(
          
          fluidRow(
             column(width = 12,
-               box(width = NULL, solidHeader = TRUE, leafletOutput("mymap", height = 500))
+               box(width = NULL, solidHeader = TRUE, leafletOutput("mymap", height = 450))
             )
          ),
          
@@ -63,10 +63,11 @@ body <- dashboardBody(
                )
             ),
             column(6,
+               h4("Data from 2008", style=('text-align: center;')),
                p(
                   class = "text-muted",
                   paste("Note: Click on any State to get detailed information")
-               )   
+               )
             )
          )
       ),
@@ -76,7 +77,10 @@ body <- dashboardBody(
          tabName = 'PieChart',
          h2('Proportion of Violent Crimes per Year', style=('text-align: center;')),
          
-         fluidRow(),
+         fluidRow(
+            box(title = 'Proportions of Crime', width = 12,
+                status= 'primary', plotOutput('PieChart', height = 300))
+         ),
          
          fluidRow()
       ),
@@ -86,8 +90,8 @@ body <- dashboardBody(
          h2('Crime at U.S. Universities', style=('text-align:center;')),
          
          fluidRow(
-            box(title='State of user_chosen', width = 12, 
-                status='primary', plotOutput('BarChart', height = 350))
+            box(title= 'Univeristy Crime in 2015', width = 12, 
+                status='primary', plotOutput('BarChart', height = 500))
          ),
          
          fluidRow(

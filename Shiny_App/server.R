@@ -9,6 +9,7 @@ library(magrittr)
 library(leaflet)
 library(readxl)
 library(maps)
+library(plotrix)
 
 
 function(input, output) {
@@ -81,22 +82,39 @@ function(input, output) {
                           "<br><strong> Year: </strong>", '2008',
                           "<br><strong>Rate:</strong>", states$Murder)
       
+      #values = ~data[ , rate_crime()] 
       leaflet(data = states) %>%
          setView(lng=-96.416015625, lat= 39.639537564366684, zoom = 4.0) %>%
          addProviderTiles("CartoDB.Positron") %>%
-         addLegend(pal = pal, values = ~data[,rate_crime()], opacity = 0.7, 
+         addLegend(pal = pal, values = ~data[ , rate_crime()], opacity = 0.7, 
                    title = 'Rate per 100,000', position = "bottomright") %>%
          addPolygons(fillColor = ~pal(data[ , rate_crime()]),
                      fillOpacity=0.8,
                      color="#2739c4",
-                     weight=1,
+                     weight=2,
                      popup = state_popup)
    })
    
-# Now formatting data for University Bar Graph
-   college$X<-NULL
    
+# Now formatting data for 3D Pie Chart
+   output$PieChart <- renderPlot({
+      
+      pieval<-c(2,4,6,8)
+      bisectors<-pie3D(pieval,explode=0.1,main="Proportions of Violent Crime in U.S.")
+      pielabels<-
+         c("We hate\n pies","We oppose\n  pies","We don't\n  care","We just love pies")
+      pie3D.labels(bisectors,labels=pielabels)
+      
+      print(bisectors)
+      
+   })   
+   
+   
+   
+   
+# Now formatting data for University Bar Graph
    output$BarChart <- renderPlot({
+      college$X <- NULL
       selection <- subset(college, State==state_chosen()) #get all universities within chosen state
       selection <-selection[, -c(1,3)] # remove State, and Student_Enrollement columns
       
