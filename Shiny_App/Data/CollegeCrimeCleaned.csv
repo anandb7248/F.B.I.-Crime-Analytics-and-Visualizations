@@ -1,0 +1,632 @@
+,State,School,Student enrollment,Violent crime,Murder and nonnegligent manslaughter,Robbery,Aggravated assault,Property crime,Burglary,Larceny theft,Motor vehicle theft,Arson,Rape
+0,ALABAMA,Alabama A&M University,"4,853",6,0,2,3,165,14,147,4,0.0,1.0
+1,ALABAMA,Jacksonville State University,"9,161",2,0,0,2,88,15,69,4,0.0,0.0
+2,ALABAMA,Samford University,"4,758",0,0,0,0,88,18,70,0,0.0,0.0
+3,ALABAMA,Troy University,"22,554",2,0,1,0,69,7,58,4,0.0,1.0
+4,ALABAMA,Tuskegee University,"3,117",10,0,4,4,235,30,202,3,0.0,2.0
+5,ALABAMA,University of Alabama: Huntsville,"7,636",4,0,0,2,83,22,61,0,0.0,2.0
+6,ALABAMA,University of Alabama: Tuscaloosa,"33,503",6,0,4,0,468,23,441,4,0.0,2.0
+7,ALABAMA,University of Montevallo,"3,083",0,0,0,0,23,6,17,0,0.0,0.0
+8,ALABAMA,University of North Alabama,"7,032",6,0,2,1,63,5,57,1,0.0,3.0
+9,ALABAMA,University of South Alabama,"14,636",3,0,1,1,137,16,118,3,0.0,1.0
+10,ALASKA,University of Alaska: Anchorage,"17,497",0,0,0,0,102,3,96,3,0.0,0.0
+11,ALASKA,University of Alaska: Fairbanks,"9,223",4,0,3,1,73,3,67,3,0.0,0.0
+12,ARIZONA,Arizona State University Main Campus,"73,378",39,0,4,25,"1,131",103,995,33,2.0,10.0
+13,ARIZONA,Central Arizona College,"7,018",1,0,0,0,18,6,12,0,0.0,1.0
+14,ARIZONA,Northern Arizona University,"25,991",16,0,2,10,242,28,214,0,3.0,4.0
+15,ARIZONA,Pima Community College,"32,988",3,0,1,1,133,9,119,5,1.0,1.0
+16,ARIZONA,University of Arizona,"40,223",30,0,7,13,857,29,816,12,2.0,10.0
+17,ARKANSAS,Arkansas State University: Beebe,"4,643",0,0,0,0,20,1,19,0,0.0,0.0
+18,ARKANSAS,Arkansas State University: Jonesboro,"13,877",8,0,0,6,97,18,79,0,0.0,2.0
+19,ARKANSAS,Arkansas Tech University,"10,950",2,0,0,1,100,24,75,1,0.0,1.0
+20,ARKANSAS,Henderson State University,"3,773",0,0,0,0,25,2,23,0,0.0,0.0
+21,ARKANSAS,University of Arkansas: Fayetteville,"24,537",4,0,0,0,195,27,157,11,0.0,4.0
+22,ARKANSAS,University of Arkansas: Little Rock,"12,872",2,0,1,1,127,33,89,5,0.0,0.0
+23,ARKANSAS,University of Arkansas: Medical Sciences,"2,809",11,0,1,10,120,2,111,7,0.0,0.0
+24,ARKANSAS,University of Central Arkansas,"11,107",1,0,0,0,141,30,108,3,0.0,1.0
+25,CALIFORNIA,Allan Hancock College,"10,837",0,0,0,0,21,2,18,1,0.0,0.0
+26,CALIFORNIA,California State Polytechnic University: Pomona,"22,156",2,0,1,0,163,10,132,21,0.0,1.0
+27,CALIFORNIA,California State Polytechnic University: San Luis Obispo,"18,679",6,0,1,1,215,2,198,15,0.0,4.0
+28,CALIFORNIA,California State University: Bakersfield,"8,520",3,0,0,2,68,8,55,5,0.0,1.0
+29,CALIFORNIA,California State University: Channel Islands,"4,920",7,0,1,5,49,4,43,2,0.0,1.0
+30,CALIFORNIA,California State University: Chico,"16,470",4,0,2,0,356,10,340,6,1.0,2.0
+31,CALIFORNIA,California State University: Dominguez Hills,"13,933",6,0,1,4,87,9,77,1,0.0,1.0
+32,CALIFORNIA,California State University: East Bay,"13,851",4,0,0,0,96,10,83,3,0.0,4.0
+33,CALIFORNIA,California State University: Fresno,"22,565",3,0,3,0,379,47,323,9,0.0,0.0
+34,CALIFORNIA,California State University: Fullerton,"37,677",4,0,0,4,198,19,169,10,0.0,0.0
+35,CALIFORNIA,California State University: Long Beach,"36,279",3,0,0,2,232,28,190,14,0.0,1.0
+36,CALIFORNIA,California State University: Los Angeles,"21,755",5,0,3,1,142,6,122,14,0.0,1.0
+37,CALIFORNIA,California State University: Monterey Bay,"5,609",2,0,0,1,41,5,36,0,0.0,1.0
+38,CALIFORNIA,California State University: Northridge,"36,164",6,0,1,4,371,23,336,12,2.0,1.0
+39,CALIFORNIA,California State University: Sacramento,"28,539",4,0,1,2,190,10,178,2,0.0,1.0
+40,CALIFORNIA,California State University: San Bernardino,"18,234",4,0,0,4,115,8,95,12,0.0,0.0
+41,CALIFORNIA,California State University: San Jose,"30,448",17,1,6,8,355,19,326,10,1.0,2.0
+42,CALIFORNIA,California State University: San Marcos,"10,610",4,0,0,3,66,9,56,1,0.0,1.0
+43,CALIFORNIA,California State University: Stanislaus,"8,882",2,0,2,0,61,3,54,4,0.0,0.0
+44,CALIFORNIA,College of the Sequoias,"10,947",0,0,0,0,67,20,45,2,0.0,0.0
+45,CALIFORNIA,Contra Costa Community College,"6,899",7,0,7,0,211,28,160,23,2.0,0.0
+46,CALIFORNIA,Cuesta College,"9,834",0,0,0,0,15,0,15,0,0.0,0.0
+47,CALIFORNIA,El Camino College,"23,405",2,0,1,1,194,25,161,8,8.0,0.0
+48,CALIFORNIA,Foothill-De Anza College,"38,900",0,0,0,0,51,13,35,3,0.0,0.0
+49,CALIFORNIA,Humboldt State University,"8,116",4,0,0,1,92,5,85,2,2.0,3.0
+50,CALIFORNIA,Marin Community College,"7,058",0,0,0,0,30,1,29,0,0.0,0.0
+51,CALIFORNIA,Pasadena Community College,"22,859",5,0,4,1,135,6,127,2,1.0,0.0
+52,CALIFORNIA,Riverside Community College,"17,218",2,0,1,1,96,3,88,5,0.0,0.0
+53,CALIFORNIA,San Bernardino Community College,"17,311",0,0,0,0,124,25,82,17,1.0,0.0
+54,CALIFORNIA,San Diego State University,"30,843",21,0,9,8,696,52,623,21,2.0,4.0
+55,CALIFORNIA,San Francisco State University,"30,500",9,0,7,0,291,81,189,21,0.0,2.0
+56,CALIFORNIA,San Jose/Evergreen Community College,"19,186",0,0,0,0,77,11,55,11,1.0,0.0
+57,CALIFORNIA,Santa Rosa Junior College,"22,823",7,0,1,6,98,7,87,4,0.0,0.0
+58,CALIFORNIA,Solano Community College,"9,772",0,0,0,0,24,0,22,2,0.0,0.0
+59,CALIFORNIA,Sonoma State University,"9,021",2,0,0,1,154,17,137,0,1.0,1.0
+60,CALIFORNIA,State Center Community College District,"35,367",14,0,11,1,257,21,208,28,0.0,2.0
+61,CALIFORNIA,University of California: Berkeley,"35,893",47,1,18,22,969,65,887,17,9.0,6.0
+62,CALIFORNIA,University of California: Davis,"32,354",10,0,2,4,653,40,608,5,2.0,4.0
+63,CALIFORNIA,University of California: Hastings College of Law,"1,159",17,0,14,3,44,3,41,0,0.0,0.0
+64,CALIFORNIA,University of California: Irvine,"27,479",36,0,1,28,436,48,372,16,1.0,7.0
+65,CALIFORNIA,University of California: Los Angeles,"39,945",85,0,11,40,905,144,744,17,1.0,34.0
+66,CALIFORNIA,"University of California: Medical Center, Sacramento5",0,2,0,0,1,181,5,174,2,1.0,1.0
+67,CALIFORNIA,University of California: Merced,"5,760",0,0,0,0,39,1,38,0,0.0,0.0
+68,CALIFORNIA,University of California: Riverside,"20,947",9,0,6,1,242,16,219,7,1.0,2.0
+69,CALIFORNIA,University of California: San Diego,"28,294",7,0,1,4,774,59,693,22,1.0,2.0
+70,CALIFORNIA,University of California: San Francisco,"3,137",7,0,4,3,394,12,377,5,0.0,0.0
+71,CALIFORNIA,University of California: Santa Barbara,"21,927",19,0,6,2,289,25,259,5,2.0,11.0
+72,CALIFORNIA,University of California: Santa Cruz,"17,404",9,0,1,7,266,29,233,4,9.0,1.0
+73,CALIFORNIA,Ventura County Community College District,"13,030",0,0,0,0,95,0,95,0,0.0,0.0
+74,CALIFORNIA,West Valley-Mission College,"20,179",3,0,0,3,42,5,35,2,0.0,0.0
+75,COLORADO,Aims Community College,"4,983",1,0,1,0,8,4,4,0,0.0,0.0
+76,COLORADO,Arapahoe Community College,"11,806",0,0,0,0,9,0,9,0,0.0,0.0
+77,COLORADO,Auraria Higher Education Center5,0,3,0,3,0,215,6,201,8,0.0,0.0
+78,COLORADO,Colorado State University Fort Collins,"30,659",9,0,2,1,345,12,329,4,7.0,6.0
+79,COLORADO,Fort Lewis College,"3,883",3,0,1,0,53,7,44,2,0.0,2.0
+80,COLORADO,Pikes Peak Community College,"15,175",0,0,0,0,26,1,24,1,0.0,0.0
+81,COLORADO,Red Rocks Community College,"9,031",0,0,0,0,11,0,10,1,0.0,0.0
+82,COLORADO,University of Colorado: Boulder,"31,945",28,0,0,18,448,31,410,7,4.0,10.0
+83,COLORADO,University of Colorado: Colorado Springs,"10,612",2,0,0,1,57,7,47,3,0.0,1.0
+84,COLORADO,University of Colorado: Denver,"22,396",0,0,0,0,60,4,54,2,0.0,0.0
+85,COLORADO,University of Colorado: Health Sciences Center5,0,0,0,0,0,23,23,0,0,0.0,0.0
+86,COLORADO,University of Northern Colorado,"13,070",2,0,0,1,134,4,129,1,1.0,1.0
+87,CONNECTICUT,Central Connecticut State University,"12,091",1,0,0,0,38,3,34,1,0.0,1.0
+88,CONNECTICUT,Eastern Connecticut State University,"5,440",0,0,0,0,107,10,95,2,0.0,0.0
+89,CONNECTICUT,Southern Connecticut State University,"11,117",4,0,1,0,56,2,54,0,0.0,3.0
+90,CONNECTICUT,University of Connecticut: Health Center5,0,0,0,0,0,1,0,1,0,0.0,0.0
+91,CONNECTICUT,"University of Connecticut: Storrs, Avery Point, and Hartford5",0,12,0,1,2,245,26,200,19,2.0,9.0
+92,CONNECTICUT,Western Connecticut State University,"6,176",0,0,0,0,38,6,32,0,0.0,0.0
+93,CONNECTICUT,Yale University,"11,906",7,0,3,0,313,56,255,2,0.0,4.0
+94,DELAWARE,Delaware State University,"4,324",13,0,3,6,118,34,84,0,0.0,4.0
+95,DELAWARE,University of Delaware,"21,856",2,0,0,2,208,26,182,0,1.0,0.0
+96,FLORIDA,Edison State College,"15,731",0,0,0,0,17,2,14,1,0.0,0.0
+97,FLORIDA,Florida A&M University,"12,057",13,0,5,4,167,6,151,10,0.0,4.0
+98,FLORIDA,Florida Atlantic University,"29,994",4,0,2,2,256,24,224,8,0.0,0.0
+99,FLORIDA,Florida Gulf Coast University,"13,445",4,0,0,0,73,2,71,0,0.0,4.0
+100,FLORIDA,Florida International University,"46,171",4,0,1,1,426,38,382,6,1.0,2.0
+101,FLORIDA,Florida State University: Panama City5,0,0,0,0,0,8,1,7,0,0.0,0.0
+102,FLORIDA,Florida State University: Tallahassee,"40,695",22,0,5,10,410,51,349,10,3.0,7.0
+103,FLORIDA,New College of Florida,832,0,0,0,0,40,1,38,1,0.0,0.0
+104,FLORIDA,Pensacola State College,"11,862",1,0,0,1,33,3,30,0,0.0,0.0
+105,FLORIDA,Santa Fe College,"15,362",1,0,0,0,54,3,50,1,0.0,1.0
+106,FLORIDA,Tallahassee Community College,"14,237",1,0,1,0,85,0,85,0,0.0,0.0
+107,FLORIDA,University of Central Florida,"59,601",30,0,6,13,350,32,304,14,0.0,11.0
+108,FLORIDA,University of Florida,"49,913",10,0,0,8,404,17,366,21,0.0,2.0
+109,FLORIDA,University of North Florida,"16,201",5,0,1,3,124,7,116,1,0.0,1.0
+110,FLORIDA,University of South Florida: St. Petersburg,"4,587",4,0,1,3,48,0,43,5,0.0,0.0
+111,FLORIDA,University of South Florida: Tampa,"41,116",7,0,1,3,373,29,333,11,0.0,3.0
+112,FLORIDA,University of West Florida,"12,652",3,0,0,1,70,19,49,2,0.0,2.0
+113,GEORGIA,Abraham Baldwin Agricultural College,"3,233",0,0,0,0,23,0,23,0,0.0,0.0
+114,GEORGIA,Albany State University,"4,275",2,0,0,1,63,1,62,0,0.0,1.0
+115,GEORGIA,Andrew College,292,0,0,0,0,1,0,1,0,0.0,0.0
+116,GEORGIA,Armstrong Atlantic State University,"7,439",0,0,0,0,48,1,47,0,1.0,0.0
+117,GEORGIA,Augusta State University,"6,528",0,0,0,0,14,0,14,0,0.0,0.0
+118,GEORGIA,Bainbridge College,"2,942",1,0,0,0,6,3,3,0,0.0,1.0
+119,GEORGIA,Berry College,"2,166",0,0,0,0,58,5,53,0,0.0,0.0
+120,GEORGIA,College of Coastal Georgia,"3,156",1,0,0,1,18,1,17,0,0.0,0.0
+121,GEORGIA,Columbus State University,"8,239",2,0,1,1,75,6,67,2,3.0,0.0
+122,GEORGIA,Dalton State College,"5,047",0,0,0,0,7,0,7,0,0.0,0.0
+123,GEORGIA,Darton State College,"6,396",1,0,0,1,52,1,49,2,0.0,0.0
+124,GEORGIA,Emory University,"14,236",9,0,0,4,503,26,472,5,0.0,5.0
+125,GEORGIA,Georgia College and State University,"6,444",3,0,0,0,60,9,47,4,0.0,3.0
+126,GEORGIA,Georgia Gwinnett College,"9,397",7,0,1,6,164,3,159,2,0.0,0.0
+127,GEORGIA,Georgia Institute of Technology,"21,557",11,0,6,3,417,43,352,22,0.0,2.0
+128,GEORGIA,Georgia Military College5,0,0,0,0,0,0,0,0,0,0.0,0.0
+129,GEORGIA,Georgia Perimeter College,"23,619",1,1,0,0,111,0,110,1,0.0,0.0
+130,GEORGIA,Georgia Southern University,"20,574",8,0,1,0,259,6,249,4,0.0,7.0
+131,GEORGIA,Georgia Southwestern State University,"2,973",4,0,0,4,26,1,25,0,0.0,0.0
+132,GEORGIA,Kennesaw State University,"24,604",6,0,0,2,146,11,132,3,0.0,4.0
+133,GEORGIA,Mercer University,"8,329",2,0,1,1,73,11,57,5,0.0,0.0
+134,GEORGIA,Middle Georgia College,"3,104",1,0,0,1,59,5,54,0,0.0,0.0
+135,GEORGIA,Morehouse College,"2,374",19,0,13,5,117,11,105,1,0.0,1.0
+136,GEORGIA,North Georgia College and State University,"6,413",1,0,0,0,51,0,51,0,0.0,1.0
+137,GEORGIA,Savannah State University,"4,582",10,1,4,3,173,14,159,0,0.0,2.0
+138,GEORGIA,Southern Polytechnic State University,"6,202",3,0,0,1,80,3,75,2,0.0,2.0
+139,GEORGIA,South Georgia College,"2,226",0,0,0,0,9,1,8,0,0.0,0.0
+140,GEORGIA,Spelman College,"2,145",7,0,6,1,40,13,27,0,0.0,0.0
+141,GEORGIA,University of Georgia,"34,519",15,0,5,2,367,35,327,5,2.0,8.0
+142,GEORGIA,University of West Georgia,"11,769",9,0,2,2,181,14,164,3,0.0,5.0
+143,GEORGIA,Valdosta State University,"12,515",7,0,4,3,248,25,222,1,0.0,0.0
+144,GEORGIA,Wesleyan College,715,1,0,0,1,13,0,12,1,0.0,0.0
+145,GEORGIA,West Georgia Technical College,"6,645",0,0,0,0,31,0,31,0,0.0,0.0
+146,GEORGIA,Young Harris College,"1,030",2,0,0,2,12,1,11,0,0.0,0.0
+147,ILLINOIS,Benedictine University Lisle,"6,516",0,0,0,0,33,5,28,0,0.0,0.0
+148,ILLINOIS,Black Hawk College: Kewanee5,0,0,0,0,0,6,0,6,0,0.0,0.0
+149,ILLINOIS,Black Hawk College: Moline,"6,360",1,0,0,1,20,1,19,0,0.0,0.0
+150,ILLINOIS,Chicago State University,"6,107",3,1,1,0,56,0,54,2,0.0,1.0
+151,ILLINOIS,College of Lake County,"17,577",1,0,1,0,63,16,47,0,0.0,0.0
+152,ILLINOIS,Eastern Illinois University,"10,417",13,0,0,7,75,5,70,0,1.0,6.0
+153,ILLINOIS,Elgin Community College,"11,554",0,0,0,0,33,0,33,0,0.0,0.0
+154,ILLINOIS,Harper College,"14,706",0,0,0,0,25,7,18,0,0.0,0.0
+155,ILLINOIS,Illinois Central College,"11,125",0,0,0,0,39,1,38,0,0.0,0.0
+156,ILLINOIS,Illinois State University,"20,706",11,0,3,6,154,22,131,1,1.0,2.0
+157,ILLINOIS,Joliet Junior College,"15,589",1,0,0,1,60,0,60,0,0.0,0.0
+158,ILLINOIS,Lake Land College,"6,818",1,0,1,0,11,2,9,0,0.0,0.0
+159,ILLINOIS,Lewis University,"6,539",0,0,0,0,32,2,30,0,0.0,0.0
+160,ILLINOIS,Lincoln Land Community College,"7,193",3,0,3,0,14,14,0,0,0.0,0.0
+161,ILLINOIS,Loyola University,"15,720",19,0,16,0,156,6,146,4,0.0,3.0
+162,ILLINOIS,McHenry County College,"6,976",0,0,0,0,15,0,15,0,0.0,0.0
+163,ILLINOIS,Moraine Valley Community College,"16,650",1,0,0,1,83,0,83,0,0.0,0.0
+164,ILLINOIS,Morton College,"5,088",0,0,0,0,21,0,20,1,0.0,0.0
+165,ILLINOIS,Northeastern Illinois University,"11,149",0,0,0,0,55,1,53,1,0.0,0.0
+166,ILLINOIS,Northern Illinois University,"21,869",14,1,0,8,180,9,169,2,2.0,5.0
+167,ILLINOIS,Northwestern University: Chicago5,0,3,0,2,1,51,4,45,2,0.0,0.0
+168,ILLINOIS,Northwestern University: Evanston,"21,215",20,0,9,1,245,24,218,3,0.0,10.0
+169,ILLINOIS,Oakton Community College,"11,402",3,0,0,3,23,0,23,0,0.0,0.0
+170,ILLINOIS,Parkland College,"8,679",3,0,0,3,42,3,39,0,0.0,0.0
+171,ILLINOIS,Rend Lake College,"3,815",0,0,0,0,1,0,1,0,0.0,0.0
+172,ILLINOIS,Rock Valley College,"8,312",0,0,0,0,37,0,37,0,0.0,0.0
+173,ILLINOIS,Southern Illinois University: Carbondale,"18,847",13,0,1,8,214,25,187,2,4.0,4.0
+174,ILLINOIS,Southern Illinois University: Edwardsville,"14,055",13,0,4,5,124,10,112,2,0.0,4.0
+175,ILLINOIS,South Suburban College,"6,211",0,0,0,0,32,0,32,0,0.0,0.0
+176,ILLINOIS,Southwestern Illinois College,"11,938",2,0,0,2,55,0,53,2,0.0,0.0
+177,ILLINOIS,University of Chicago Cook County,"15,245",14,0,10,4,336,15,321,0,0.0,0.0
+178,ILLINOIS,University of Illinois: Chicago,"27,875",19,0,9,9,463,5,454,4,0.0,1.0
+179,ILLINOIS,University of Illinois: Springfield,"5,048",1,0,0,1,24,1,23,0,0.0,0.0
+180,ILLINOIS,University of Illinois: Urbana,"44,520",30,0,8,17,400,8,391,1,1.0,5.0
+181,ILLINOIS,Western Illinois University,"12,205",7,0,0,5,149,56,90,3,4.0,2.0
+182,INDIANA,Ball State University,"21,053",6,0,2,3,231,26,202,3,0.0,1.0
+183,INDIANA,Butler University6,"4,712",4,0,0,1,158,4,153,1,0.0,3.0
+184,INDIANA,Indiana University: Bloomington,"42,133",31,0,1,16,530,70,454,6,0.0,14.0
+185,INDIANA,Indiana University: Indianapolis,"30,451",11,0,4,6,288,52,231,5,1.0,1.0
+186,INDIANA,Indiana University: Northwest,"6,184",0,0,0,0,30,2,28,0,0.0,0.0
+187,INDIANA,Indiana University: Southeast,"6,904",0,0,0,0,8,1,7,0,0.0,0.0
+188,INDIANA,Marian University,"2,580",1,0,0,1,58,8,50,0,0.0,0.0
+189,INDIANA,Purdue University,"40,393",8,0,1,7,400,12,384,4,0.0,0.0
+190,IOWA,Iowa State University,"30,748",15,0,1,3,215,13,197,5,2.0,11.0
+191,IOWA,University of Iowa,"30,129",7,0,0,5,195,11,180,4,1.0,2.0
+192,IOWA,University of Northern Iowa,"12,273",5,0,0,4,96,8,87,1,1.0,1.0
+193,KANSAS,Fort Hays State University,"13,310",1,0,0,1,41,7,34,0,0.0,0.0
+194,KANSAS,Kansas City Kansas Community College,"7,479",2,0,1,1,41,1,39,1,0.0,0.0
+195,KANSAS,Kansas State University,"24,378",6,1,1,3,157,14,142,1,0.0,1.0
+196,KANSAS,Pittsburg State University,"7,289",0,0,0,0,89,9,80,0,0.0,0.0
+197,KANSAS,University of Kansas: Main Campus,"27,135",6,0,0,3,195,22,168,5,0.0,3.0
+198,KANSAS,University of Kansas: Medical Center5,0,4,0,1,3,178,3,169,6,0.0,0.0
+199,KANSAS,Washburn University,"7,204",1,0,0,0,86,9,75,2,0.0,1.0
+200,KANSAS,Wichita State University,"14,716",3,0,1,2,89,1,86,2,0.0,0.0
+201,KENTUCKY,Eastern Kentucky University,"15,968",2,0,0,0,180,39,139,2,2.0,2.0
+202,KENTUCKY,Kentucky State University,"2,524",2,0,2,0,84,11,73,0,0.0,0.0
+203,KENTUCKY,Morehead State University,"11,169",1,0,1,0,67,18,49,0,1.0,0.0
+204,KENTUCKY,Murray State University,"10,832",6,0,1,1,95,13,81,1,7.0,4.0
+205,KENTUCKY,Northern Kentucky University,"15,634",2,0,0,0,73,6,67,0,1.0,2.0
+206,KENTUCKY,University of Kentucky,"28,034",14,0,4,7,594,43,535,16,2.0,3.0
+207,KENTUCKY,University of Louisville,"21,239",9,0,8,1,350,22,323,5,0.0,0.0
+208,KENTUCKY,Western Kentucky University,"21,110",5,0,2,1,142,39,102,1,1.0,2.0
+209,LOUISIANA,Delgado Community College,"18,096",0,0,0,0,10,1,9,0,0.0,0.0
+210,LOUISIANA,Dillard University,"1,307",2,0,0,1,30,19,11,0,0.0,1.0
+211,LOUISIANA,Grambling State University,"5,277",10,0,4,5,92,12,79,1,0.0,1.0
+212,LOUISIANA,Louisiana State University: Baton Rouge,"30,225",23,0,13,7,367,40,320,7,0.0,3.0
+213,LOUISIANA,"Louisiana State University: Health Sciences Center, New Orleans","2,788",0,0,0,0,0,0,0,0,0.0,0.0
+214,LOUISIANA,"Louisiana State University: Health Sciences Center, Shreveport",888,6,0,0,6,35,2,32,1,0.0,0.0
+215,LOUISIANA,Louisiana State University: Shreveport,"4,535",3,0,1,1,16,0,16,0,0.0,1.0
+216,LOUISIANA,Louisiana Tech University,"11,304",1,0,1,0,90,11,79,0,0.0,0.0
+217,LOUISIANA,Nicholls State University,"6,602",2,0,0,0,18,1,17,0,0.0,2.0
+218,LOUISIANA,Northwestern State University,"9,447",2,0,1,1,91,19,72,0,0.0,0.0
+219,LOUISIANA,Southern University and A&M College: Baton Rouge,"6,397",5,0,3,2,163,11,152,0,2.0,0.0
+220,LOUISIANA,Southern University and A&M College: Shreveport,"2,937",0,0,0,0,10,0,9,1,0.0,0.0
+221,LOUISIANA,Tulane University,"12,958",2,0,0,2,237,10,227,0,1.0,0.0
+222,LOUISIANA,University of Louisiana: Lafayette,"16,688",9,0,4,5,181,18,158,5,0.0,0.0
+223,LOUISIANA,University of Louisiana: Monroe,"8,548",10,0,5,4,70,2,68,0,0.0,1.0
+224,LOUISIANA,University of New Orleans,"10,071",0,0,0,0,53,6,44,3,0.0,0.0
+225,MAINE,University of Maine: Farmington,"2,179",0,0,0,0,17,2,15,0,0.0,0.0
+226,MAINE,University of Maine: Orono,"10,901",2,0,0,0,176,11,163,2,11.0,2.0
+227,MAINE,University of Southern Maine,"9,382",0,0,0,0,42,7,35,0,0.0,0.0
+228,MARYLAND,Bowie State University,"5,421",5,0,2,2,64,16,48,0,0.0,1.0
+229,MARYLAND,Coppin State University,"3,612",9,0,2,7,89,12,73,4,0.0,0.0
+230,MARYLAND,Frostburg State University,"5,421",3,0,0,1,42,5,37,0,0.0,2.0
+231,MARYLAND,Hagerstown Community College,"5,005",1,0,0,0,14,3,11,0,0.0,1.0
+232,MARYLAND,Morgan State University,"7,952",8,0,7,1,157,32,123,2,0.0,0.0
+233,MARYLAND,Salisbury University,"8,657",4,0,1,1,81,6,72,3,0.0,2.0
+234,MARYLAND,St. Mary's College,"1,933",2,0,0,2,48,2,46,0,1.0,0.0
+235,MARYLAND,Towson University,"21,960",1,0,1,0,117,6,110,1,0.0,0.0
+236,MARYLAND,University of Baltimore,"6,558",0,0,0,0,44,2,42,0,0.0,0.0
+237,MARYLAND,University of Maryland: Baltimore City,"6,368",9,0,7,2,126,2,120,4,0.0,0.0
+238,MARYLAND,University of Maryland: Baltimore County,"13,637",2,0,0,1,96,10,86,0,0.0,1.0
+239,MARYLAND,University of Maryland: College Park,"37,248",9,0,3,6,475,52,405,18,0.0,0.0
+240,MARYLAND,University of Maryland: Eastern Shore,"4,454",3,0,2,1,88,16,70,2,0.0,0.0
+241,MASSACHUSETTS,Assumption College,"2,813",1,0,0,1,30,5,25,0,1.0,0.0
+242,MASSACHUSETTS,Bentley University,"5,647",8,0,3,3,66,20,46,0,0.0,2.0
+243,MASSACHUSETTS,Boston College,"14,605",8,0,0,0,133,3,128,2,0.0,8.0
+244,MASSACHUSETTS,Boston University,"32,603",20,0,4,11,328,14,312,2,0.0,5.0
+245,MASSACHUSETTS,Brandeis University,"5,808",3,0,0,0,80,5,75,0,0.0,3.0
+246,MASSACHUSETTS,Bridgewater State University,"11,417",2,0,0,2,64,4,60,0,1.0,0.0
+247,MASSACHUSETTS,Bristol Community College,"9,022",0,0,0,0,15,0,15,0,0.0,0.0
+248,MASSACHUSETTS,Bunker Hill Community College,"13,504",1,0,0,1,72,0,72,0,0.0,0.0
+249,MASSACHUSETTS,Clark University,"3,503",6,0,0,1,45,2,43,0,0.0,5.0
+250,MASSACHUSETTS,Dean College,"1,322",1,0,0,1,34,3,31,0,0.0,0.0
+251,MASSACHUSETTS,Emerson College,"4,531",9,0,0,0,59,7,52,0,0.0,9.0
+252,MASSACHUSETTS,Fitchburg State University,"6,889",2,0,0,0,42,4,38,0,0.0,2.0
+253,MASSACHUSETTS,Framingham State University,"6,506",15,0,0,13,23,8,15,0,0.0,2.0
+254,MASSACHUSETTS,Hampshire College,"1,461",2,0,1,0,59,6,53,0,0.0,1.0
+255,MASSACHUSETTS,Harvard University,"28,147",5,0,1,3,540,40,498,2,0.0,1.0
+256,MASSACHUSETTS,Lasell College,"1,980",4,0,0,2,34,13,20,1,0.0,2.0
+257,MASSACHUSETTS,Massachusetts College of Liberal Arts,"1,799",1,0,1,0,26,7,19,0,0.0,0.0
+258,MASSACHUSETTS,Massachusetts Institute of Technology,"11,189",1,0,0,1,353,23,326,4,0.0,0.0
+259,MASSACHUSETTS,Massasoit Community College,"8,209",4,0,1,3,19,0,18,1,0.0,0.0
+260,MASSACHUSETTS,Merrimack College,"2,694",2,0,1,0,35,5,30,0,0.0,1.0
+261,MASSACHUSETTS,Mount Holyoke College,"2,347",1,0,0,0,76,9,67,0,0.0,1.0
+262,MASSACHUSETTS,Northeastern University,"27,694",16,0,5,10,396,24,372,0,0.0,1.0
+263,MASSACHUSETTS,North Shore Community College,"7,912",0,0,0,0,20,0,20,0,0.0,0.0
+264,MASSACHUSETTS,Salem State University,"9,456",7,0,0,6,66,5,61,0,0.0,1.0
+265,MASSACHUSETTS,Smith College,"3,212",1,0,0,0,81,5,74,2,0.0,1.0
+266,MASSACHUSETTS,Springfield College,"3,284",6,0,2,0,27,8,19,0,0.0,4.0
+267,MASSACHUSETTS,Tufts University: Medford,"10,837",4,0,1,2,83,18,65,0,0.0,1.0
+268,MASSACHUSETTS,Tufts University: Suffolk5,0,0,0,0,0,25,6,19,0,0.0,0.0
+269,MASSACHUSETTS,Tufts University: Worcester5,0,0,0,0,0,8,0,7,1,0.0,0.0
+270,MASSACHUSETTS,University of Massachusetts: Amherst,"28,236",10,0,0,5,251,18,229,4,0.0,5.0
+271,MASSACHUSETTS,University of Massachusetts: Dartmouth,"9,210",27,0,3,15,144,7,135,2,0.0,9.0
+272,MASSACHUSETTS,"University of Massachusetts: Harbor Campus, Boston","15,874",3,0,0,2,77,0,77,0,1.0,1.0
+273,MASSACHUSETTS,"University of Massachusetts: Medical Center, Worcester","1,160",5,1,1,3,98,0,96,2,0.0,0.0
+274,MASSACHUSETTS,Wellesley College,"2,482",0,0,0,0,48,3,44,1,0.0,0.0
+275,MASSACHUSETTS,Western New England University,"3,802",0,0,0,0,46,5,40,1,0.0,0.0
+276,MASSACHUSETTS,Westfield State University,"6,081",8,0,0,0,43,5,38,0,1.0,8.0
+277,MASSACHUSETTS,Worcester Polytechnic Institute,"5,957",2,0,1,1,37,2,35,0,0.0,0.0
+278,MICHIGAN,Central Michigan University,"27,626",3,0,1,1,109,17,88,4,1.0,1.0
+279,MICHIGAN,Delta College,"10,763",0,0,0,0,40,3,37,0,0.0,0.0
+280,MICHIGAN,Eastern Michigan University,"23,518",12,0,2,5,198,9,185,4,5.0,5.0
+281,MICHIGAN,Ferris State University,"14,533",7,0,0,3,66,8,58,0,0.0,4.0
+282,MICHIGAN,Grand Rapids Community College,"17,448",0,0,0,0,97,0,97,0,0.0,0.0
+283,MICHIGAN,Grand Valley State University,"24,654",3,0,0,1,131,4,127,0,0.0,2.0
+284,MICHIGAN,Kalamazoo Valley Community College,"11,052",1,0,1,0,36,0,36,0,0.0,0.0
+285,MICHIGAN,Kirtland Community College,"1,807",0,0,0,0,0,0,0,0,0.0,0.0
+286,MICHIGAN,Macomb Community College,"23,729",1,0,0,0,43,0,41,2,1.0,1.0
+287,MICHIGAN,Michigan State University,"48,783",25,0,9,4,729,52,625,52,8.0,12.0
+288,MICHIGAN,Michigan Technological University,"6,933",2,0,0,1,63,3,60,0,3.0,1.0
+289,MICHIGAN,Mott Community College,"9,968",2,0,0,2,67,3,62,2,0.0,0.0
+290,MICHIGAN,Northern Michigan University,"9,159",3,0,0,3,96,7,89,0,0.0,0.0
+291,MICHIGAN,Oakland Community College,"27,296",0,0,0,0,61,0,59,2,0.0,0.0
+292,MICHIGAN,Oakland University,"19,740",3,0,0,3,53,6,47,0,0.0,0.0
+293,MICHIGAN,Saginaw Valley State University,"10,552",8,0,0,7,120,9,111,0,0.0,1.0
+294,MICHIGAN,University of Michigan: Ann Arbor,"43,426",22,0,6,10,747,25,717,5,2.0,6.0
+295,MICHIGAN,University of Michigan: Dearborn,"8,790",1,0,0,0,26,1,24,1,0.0,1.0
+296,MICHIGAN,University of Michigan: Flint,"8,289",3,0,2,1,60,2,57,1,0.0,0.0
+297,MICHIGAN,Western Michigan University,"24,598",15,0,0,7,135,5,130,0,0.0,8.0
+298,MINNESOTA,University of Minnesota: Duluth,"11,491",2,0,0,1,38,1,37,0,0.0,1.0
+299,MINNESOTA,University of Minnesota: Morris,"1,896",0,0,0,0,1,0,1,0,0.0,0.0
+300,MINNESOTA,University of Minnesota: Twin Cities,"51,853",12,0,7,4,460,19,430,11,2.0,1.0
+301,MISSISSIPPI,Coahoma Community College,"2,305",1,0,1,0,4,2,2,0,0.0,0.0
+302,MISSISSIPPI,Mississippi State University,"20,365",5,0,3,1,174,5,163,6,0.0,1.0
+303,MISSISSIPPI,Northeast Mississippi Community College,"3,407",0,0,0,0,39,1,38,0,0.0,0.0
+304,MISSISSIPPI,University of Mississippi: Medical Center,"2,147",0,0,0,0,113,0,108,5,0.0,0.0
+305,MISSISSIPPI,University of Mississippi: Oxford,"18,794",10,0,3,2,205,22,183,0,0.0,5.0
+306,MISSOURI,Lincoln University,"3,205",6,0,0,6,29,1,27,1,1.0,0.0
+307,MISSOURI,Metropolitan Community College,"20,141",0,0,0,0,104,1,99,4,0.0,0.0
+308,MISSOURI,Mineral Area College,"3,784",0,0,0,0,0,0,0,0,0.0,0.0
+309,MISSOURI,Missouri Southern State University,"5,417",5,0,0,3,30,4,26,0,0.0,2.0
+310,MISSOURI,Missouri University of Science and Technology,"7,645",1,0,0,1,102,7,94,1,1.0,0.0
+311,MISSOURI,Missouri Western State University,"6,056",0,0,0,0,68,12,55,1,0.0,0.0
+312,MISSOURI,Northwest Missouri State University,"6,831",2,0,0,1,54,3,50,1,0.0,1.0
+313,MISSOURI,Southeast Missouri State University,"11,601",4,0,0,1,46,5,38,3,0.0,3.0
+314,MISSOURI,St. Charles Community College,"7,642",0,0,0,0,20,0,20,0,0.0,0.0
+315,MISSOURI,St. Louis Community College: Florissant Valley5,0,0,0,0,0,53,0,52,1,0.0,0.0
+316,MISSOURI,St. Louis Community College: Meramec,"26,603",1,0,0,1,31,0,29,2,0.0,0.0
+317,MISSOURI,Three Rivers Community College,"4,651",2,0,0,1,15,8,7,0,0.0,1.0
+318,MISSOURI,Truman State University,"6,237",1,0,0,0,65,5,59,1,0.0,1.0
+319,MISSOURI,University of Central Missouri,"11,878",6,0,1,2,144,18,120,6,0.0,3.0
+320,MISSOURI,University of Missouri: Columbia,"34,704",11,0,2,6,338,13,323,2,2.0,3.0
+321,MISSOURI,University of Missouri: Kansas City,"15,990",5,0,4,1,133,52,70,11,0.0,0.0
+322,MISSOURI,University of Missouri: St. Louis,"16,705",4,0,2,1,85,4,80,1,0.0,1.0
+323,MISSOURI,Washington University,"13,952",0,0,0,0,88,4,84,0,0.0,0.0
+324,MONTANA,Montana State University,"14,269",7,0,0,2,173,4,165,4,5.0,5.0
+325,MONTANA,University Of Montana,"14,946",2,0,0,1,6,0,6,0,0.0,1.0
+326,NEBRASKA,Metropolitan Community College: Douglas County,"17,376",0,0,0,0,45,0,45,0,0.0,0.0
+327,NEBRASKA,Metropolitan Community College: Sarpy County5,0,0,0,0,0,0,0,0,0,0.0,0.0
+328,NEBRASKA,University of Nebraska: Kearney,"7,199",3,0,0,1,58,14,44,0,0.0,2.0
+329,NEBRASKA,University of Nebraska: Lincoln,"24,207",5,0,2,2,234,10,217,7,0.0,1.0
+330,NEVADA,Truckee Meadows Community College,"11,603",0,0,0,0,13,4,9,0,0.0,0.0
+331,NEVADA,University of Nevada: Las Vegas,"27,389",7,0,1,3,231,28,179,24,2.0,3.0
+332,NEVADA,University of Nevada: Reno,"18,227",6,0,1,4,147,18,124,5,1.0,1.0
+333,NEW HAMPSHIRE,University of New Hampshire,"15,267",8,0,0,4,153,17,136,0,4.0,4.0
+334,NEW JERSEY,Brookdale Community College,"14,637",0,0,0,0,27,4,23,0,0.0,0.0
+335,NEW JERSEY,Essex County College,"11,979",5,0,5,0,106,3,103,0,0.0,0.0
+336,NEW JERSEY,Kean University,"15,391",1,0,0,1,121,6,115,0,0.0,0.0
+337,NEW JERSEY,Middlesex County College,"12,898",0,0,0,0,30,0,29,1,0.0,0.0
+338,NEW JERSEY,Monmouth University,"6,472",3,0,1,0,55,7,48,0,2.0,2.0
+339,NEW JERSEY,Montclair State University,"18,382",4,0,1,3,128,4,124,0,0.0,0.0
+340,NEW JERSEY,New Jersey Institute of Technology,"9,944",17,0,15,1,159,9,147,3,0.0,1.0
+341,NEW JERSEY,Richard Stockton College of New Jersey,"8,400",0,0,0,0,39,1,36,2,0.0,0.0
+342,NEW JERSEY,Rowan University,"12,183",4,0,1,3,106,21,84,1,0.0,0.0
+343,NEW JERSEY,Rutgers University: Camden,"6,343",2,0,2,0,80,4,76,0,0.0,0.0
+344,NEW JERSEY,Rutgers University: Newark,"12,011",27,0,26,1,135,16,113,6,0.0,0.0
+345,NEW JERSEY,Rutgers University: New Brunswick,"40,434",36,0,8,18,775,94,675,6,0.0,10.0
+346,NEW JERSEY,Stevens Institute of Technology,"5,649",0,0,0,0,37,7,30,0,0.0,0.0
+347,NEW JERSEY,The College of New Jersey,"7,270",1,0,0,1,78,6,72,0,0.0,0.0
+348,NEW JERSEY,University of Medicine and Dentistry Newark,"6,972",31,0,10,21,157,5,150,2,0.0,0.0
+349,NEW JERSEY,William Paterson University,"11,423",4,0,1,3,64,0,63,1,0.0,0.0
+350,NEW MEXICO,Eastern New Mexico University,"5,804",0,0,0,0,61,4,55,2,0.0,0.0
+351,NEW MEXICO,New Mexico Institute of Mining and Technology,"2,105",0,0,0,0,35,6,29,0,0.0,0.0
+352,NEW MEXICO,University of New Mexico,"29,033",37,0,0,31,512,26,443,43,0.0,6.0
+353,NEW YORK,Cornell University,"21,424",3,0,2,0,259,16,243,0,0.0,1.0
+354,NEW YORK,Ithaca College,"6,759",0,0,0,0,119,37,81,1,0.0,0.0
+355,NEW YORK,Rensselaer Polytechnic Institute,"6,658",0,0,0,0,78,0,78,0,0.0,0.0
+356,NEW YORK,State University of New York: Binghamton,"15,308",4,0,2,1,173,6,167,0,0.0,1.0
+357,NEW YORK,State University of New York: Buffalo,"28,952",11,0,5,5,370,47,319,4,0.0,1.0
+358,NEW YORK,State University of New York: Downstate Medical Center,"1,799",7,0,5,2,57,0,57,0,0.0,0.0
+359,NEW YORK,State University of New York: Stony Brook,"23,946",13,0,3,8,286,28,257,1,2.0,2.0
+360,NEW YORK,State University of New York: Upstate Medical Center,"1,635",3,0,1,2,116,2,114,0,0.0,0.0
+361,NEW YORK,State University of New York College: Brockport,"8,271",5,0,1,4,102,9,90,3,0.0,0.0
+362,NEW YORK,State University of New York College: Buffalo,"11,781",4,0,2,0,149,15,134,0,0.0,2.0
+363,NEW YORK,State University of New York College: Cortland,"7,098",3,0,1,0,54,14,40,0,0.0,2.0
+364,NEW YORK,State University of New York College: Geneseo,"5,557",6,0,0,1,89,9,80,0,0.0,5.0
+365,NEW YORK,State University of New York College: New Paltz,"7,655",1,0,0,1,47,3,43,1,0.0,0.0
+366,NEW YORK,State University of New York College: Oswego,"7,921",1,0,0,1,152,39,111,2,0.0,0.0
+367,NEW YORK,State University of New York College: Plattsburgh,"6,167",0,0,0,0,97,12,85,0,0.0,0.0
+368,NEW YORK,State University of New York College: Potsdam,"4,224",2,0,0,0,55,3,50,2,0.0,2.0
+369,NEW YORK,State University of New York College: Purchase,"4,240",2,0,0,2,68,7,61,0,0.0,0.0
+370,NEW YORK,State University of New York College: Technology,"3,151",1,0,0,1,62,3,59,0,0.0,0.0
+371,NORTH CAROLINA,Appalachian State University,"17,589",0,0,0,0,79,20,59,0,1.0,0.0
+372,NORTH CAROLINA,Duke University,"15,386",10,0,7,3,510,45,453,12,2.0,0.0
+373,NORTH CAROLINA,East Carolina University,"26,947",3,0,1,1,227,2,224,1,0.0,1.0
+374,NORTH CAROLINA,Elon University,"6,029",2,0,0,0,61,0,61,0,0.0,2.0
+375,NORTH CAROLINA,Fayetteville State University,"6,060",5,0,3,0,81,23,54,4,0.0,2.0
+376,NORTH CAROLINA,Methodist University,"2,359",2,0,0,0,51,6,45,0,2.0,2.0
+377,NORTH CAROLINA,North Carolina Central University,"8,604",13,0,4,9,143,16,126,1,0.0,0.0
+378,NORTH CAROLINA,North Carolina School of the Arts,880,1,0,0,0,16,4,12,0,0.0,1.0
+379,NORTH CAROLINA,North Carolina State University Raleigh,"34,340",13,0,3,8,386,33,349,4,0.0,2.0
+380,NORTH CAROLINA,University of North Carolina: Asheville,"3,751",3,0,1,1,31,3,27,1,0.0,1.0
+381,NORTH CAROLINA,University of North Carolina: Chapel Hill,"29,278",9,0,1,5,299,30,261,8,1.0,3.0
+382,NORTH CAROLINA,University of North Carolina: Greensboro,"18,516",6,0,1,2,184,0,177,7,0.0,3.0
+383,NORTH CAROLINA,University of North Carolina: Wilmington,"13,733",9,0,0,2,266,6,260,0,2.0,7.0
+384,NORTH CAROLINA,Western Carolina University,"9,608",5,0,2,2,95,10,84,1,1.0,1.0
+385,NORTH CAROLINA,Winston-Salem State University,"5,689",2,0,0,1,95,7,85,3,0.0,1.0
+386,NORTH DAKOTA,North Dakota State College of Science,"3,066",0,0,0,0,32,11,20,1,0.0,0.0
+387,NORTH DAKOTA,North Dakota State University,"14,443",1,0,0,0,84,9,73,2,0.0,1.0
+388,NORTH DAKOTA,University of North Dakota,"15,250",8,0,0,3,131,9,121,1,2.0,5.0
+389,OHIO,Bowling Green State University,"17,286",4,0,2,1,62,13,49,0,2.0,1.0
+390,OHIO,Capital University,"3,584",3,0,1,0,25,7,17,1,0.0,2.0
+391,OHIO,Central State University,"2,152",1,0,0,1,97,17,80,0,1.0,0.0
+392,OHIO,Columbus State Community College,"25,863",0,0,0,0,81,0,79,2,0.0,0.0
+393,OHIO,Cuyahoga Community College,"29,701",2,0,2,0,135,6,125,4,0.0,0.0
+394,OHIO,Kent State University,"28,602",1,0,0,0,174,7,167,0,1.0,1.0
+395,OHIO,Lakeland Community College,"9,283",1,0,0,1,24,0,24,0,0.0,0.0
+396,OHIO,Miami University,"17,683",8,0,0,0,183,32,150,1,3.0,8.0
+397,OHIO,Notre Dame College,"2,129",0,0,0,0,16,2,14,0,0.0,0.0
+398,OHIO,Ohio State University Columbus,"56,387",16,0,5,1,870,22,836,12,6.0,10.0
+399,OHIO,Ohio University,"27,402",5,0,2,0,189,17,172,0,2.0,3.0
+400,OHIO,Otterbein University,"2,984",1,0,0,0,29,3,26,0,0.0,1.0
+401,OHIO,Shawnee State University,"4,652",0,0,0,0,62,7,55,0,0.0,0.0
+402,OHIO,Sinclair Community College,"19,537",0,0,0,0,66,0,66,0,0.0,0.0
+403,OHIO,University of Akron,"26,581",5,0,3,2,231,12,215,4,0.0,0.0
+404,OHIO,University of Cincinnati,"33,347",7,0,4,3,349,11,338,0,0.0,0.0
+405,OHIO,University of Toledo,"21,453",8,0,3,4,277,42,235,0,0.0,1.0
+406,OHIO,Wright State University,"16,780",6,0,1,0,153,24,127,2,0.0,5.0
+407,OHIO,Youngstown State University,"13,760",2,0,1,0,111,8,103,0,0.0,1.0
+408,OKLAHOMA,Cameron University,"6,115",1,0,0,1,31,5,26,0,0.0,0.0
+409,OKLAHOMA,East Central University,"4,819",0,0,0,0,21,0,19,2,0.0,0.0
+410,OKLAHOMA,Mid-America Christian University,"2,606",0,0,0,0,2,0,1,1,0.0,0.0
+411,OKLAHOMA,Northeastern Oklahoma A&M College,"2,526",4,0,0,4,59,16,42,1,0.0,0.0
+412,OKLAHOMA,Northeastern State University: Broken Arrow5,0,0,0,0,0,8,0,8,0,0.0,0.0
+413,OKLAHOMA,Northeastern State University: Tahlequah,"8,721",0,0,0,0,36,1,34,1,1.0,0.0
+414,OKLAHOMA,Oklahoma City University,"3,299",1,0,1,0,50,4,44,2,0.0,0.0
+415,OKLAHOMA,Oklahoma State University: Main Campus,"25,708",3,0,2,0,220,42,174,4,0.0,1.0
+416,OKLAHOMA,Oklahoma State University: Okmulgee,"3,936",2,0,0,1,16,0,16,0,0.0,1.0
+417,OKLAHOMA,Oklahoma State University: Tulsa,457,0,0,0,0,9,0,7,2,0.0,0.0
+418,OKLAHOMA,Rogers State University,"4,774",0,0,0,0,12,1,11,0,0.0,0.0
+419,OKLAHOMA,Seminole State College,"2,185",0,0,0,0,6,0,6,0,0.0,0.0
+420,OKLAHOMA,Southeastern Oklahoma State University,"4,103",0,0,0,0,21,10,11,0,0.0,0.0
+421,OKLAHOMA,Southwestern Oklahoma State University,"5,106",1,0,0,0,25,7,18,0,0.0,1.0
+422,OKLAHOMA,Tulsa Community College,"19,557",1,0,0,1,43,0,42,1,0.0,0.0
+423,OKLAHOMA,University of Central Oklahoma,"17,211",5,0,1,0,77,4,72,1,0.0,4.0
+424,OKLAHOMA,University of Oklahoma: Health Sciences Center,"3,605",7,0,1,6,162,5,153,4,0.0,0.0
+425,OKLAHOMA,University of Oklahoma: Norman,"27,507",2,0,0,0,296,5,285,6,0.0,2.0
+426,OREGON,Portland State University,"28,287",6,0,3,1,305,25,280,0,0.0,2.0
+427,PENNSYLVANIA,Bloomsburg University,"9,950",4,0,2,1,77,0,76,1,0.0,1.0
+428,PENNSYLVANIA,California University,"8,608",4,0,1,2,33,0,33,0,0.0,1.0
+429,PENNSYLVANIA,Cheyney University,"1,284",10,0,0,8,52,24,27,1,1.0,2.0
+430,PENNSYLVANIA,Clarion University,"6,520",1,0,0,0,29,1,28,0,1.0,1.0
+431,PENNSYLVANIA,Dickinson College,"2,386",4,0,0,2,83,10,72,1,0.0,2.0
+432,PENNSYLVANIA,East Stroudsburg University,"6,943",7,0,1,4,65,5,60,0,0.0,2.0
+433,PENNSYLVANIA,Edinboro University,"7,462",4,0,0,3,71,14,57,0,0.0,1.0
+434,PENNSYLVANIA,Elizabethtown College,"1,910",3,0,0,1,34,1,33,0,0.0,2.0
+435,PENNSYLVANIA,Indiana University,"15,596",3,0,0,3,50,3,47,0,0.0,0.0
+436,PENNSYLVANIA,Kutztown University,"9,804",6,0,2,2,78,1,77,0,0.0,2.0
+437,PENNSYLVANIA,Lehigh University,"7,080",6,0,2,3,43,1,42,0,0.0,1.0
+438,PENNSYLVANIA,Lock Haven University,"5,328",7,0,2,1,45,1,43,1,0.0,4.0
+439,PENNSYLVANIA,Mansfield University,"3,131",0,0,0,0,30,1,29,0,0.0,0.0
+440,PENNSYLVANIA,Millersville University,"8,368",4,0,0,3,51,6,45,0,1.0,1.0
+441,PENNSYLVANIA,Moravian College,"1,910",3,0,0,3,42,10,32,0,0.0,0.0
+442,PENNSYLVANIA,Pennsylvania State University: Altoona,"3,863",2,0,0,1,47,14,33,0,0.0,1.0
+443,PENNSYLVANIA,Pennsylvania State University: Beaver,759,0,0,0,0,9,0,8,1,0.0,0.0
+444,PENNSYLVANIA,Pennsylvania State University: Behrend,"4,149",0,0,0,0,35,2,33,0,0.0,0.0
+445,PENNSYLVANIA,Pennsylvania State University: Berks,"2,747",0,0,0,0,16,3,13,0,0.0,0.0
+446,PENNSYLVANIA,Pennsylvania State University: Harrisburg,"4,376",0,0,0,0,11,0,11,0,0.0,0.0
+447,PENNSYLVANIA,Pennsylvania State University: Hazleton,"1,060",0,0,0,0,16,6,10,0,0.0,0.0
+448,PENNSYLVANIA,Pennsylvania State University: McKeesport,635,0,0,0,0,5,0,5,0,0.0,0.0
+449,PENNSYLVANIA,Pennsylvania State University: Mont Alto,"1,107",2,0,0,1,7,1,6,0,0.0,1.0
+450,PENNSYLVANIA,Pennsylvania State University: Schuylkill,867,0,0,0,0,14,2,12,0,0.0,0.0
+451,PENNSYLVANIA,Pennsylvania State University: University Park,"45,783",29,0,0,20,498,40,453,5,9.0,9.0
+452,PENNSYLVANIA,Shippensburg University,"7,724",7,0,1,2,57,16,41,0,0.0,4.0
+453,PENNSYLVANIA,Slippery Rock University,"8,559",3,0,1,2,38,4,34,0,0.0,0.0
+454,PENNSYLVANIA,University of Pittsburgh: Bradford,"1,518",1,0,0,1,23,6,17,0,0.0,0.0
+455,PENNSYLVANIA,University of Pittsburgh: Johnstown,"2,932",5,0,0,4,45,6,39,0,0.0,1.0
+456,PENNSYLVANIA,University of Pittsburgh: Pittsburgh,"28,769",15,0,1,14,291,15,273,3,0.0,0.0
+457,PENNSYLVANIA,University of Pittsburgh: Titusville,388,0,0,0,0,6,0,6,0,0.0,0.0
+458,PENNSYLVANIA,West Chester University,"15,411",2,0,1,1,77,11,66,0,0.0,0.0
+459,RHODE ISLAND,Brown University,"8,885",3,0,0,1,167,59,108,0,0.0,2.0
+460,RHODE ISLAND,University of Rhode Island,"16,451",3,0,2,0,181,19,160,2,1.0,1.0
+461,SOUTH CAROLINA,Benedict College,"2,917",42,0,30,8,171,33,136,2,3.0,4.0
+462,SOUTH CAROLINA,Bob Jones University,"3,469",0,0,0,0,11,3,8,0,0.0,0.0
+463,SOUTH CAROLINA,Clemson University,"20,768",4,0,1,3,197,23,165,9,0.0,0.0
+464,SOUTH CAROLINA,Coastal Carolina University,"9,335",8,1,3,2,175,26,145,4,0.0,2.0
+465,SOUTH CAROLINA,College of Charleston,"11,723",1,0,0,1,73,2,69,2,0.0,0.0
+466,SOUTH CAROLINA,Erskine College,751,0,0,0,0,6,0,6,0,0.0,0.0
+467,SOUTH CAROLINA,Francis Marion University,"4,093",0,0,0,0,41,1,39,1,0.0,0.0
+468,SOUTH CAROLINA,Greenville Technical College,"13,965",6,0,1,5,59,8,49,2,0.0,0.0
+469,SOUTH CAROLINA,Lander University,"3,049",0,0,0,0,21,0,21,0,0.0,0.0
+470,SOUTH CAROLINA,Medical University of South Carolina,"2,731",1,0,0,0,149,2,141,6,1.0,1.0
+471,SOUTH CAROLINA,Midlands Technical College,"11,949",0,0,0,0,29,0,28,1,0.0,0.0
+472,SOUTH CAROLINA,Presbyterian College,"1,403",1,0,0,1,30,6,24,0,0.0,0.0
+473,SOUTH CAROLINA,South Carolina State University,"3,807",6,0,0,5,83,22,57,4,0.0,1.0
+474,SOUTH CAROLINA,Spartanburg Methodist College,811,0,0,0,0,11,1,9,1,0.0,0.0
+475,SOUTH CAROLINA,The Citadel,"3,499",5,0,5,0,24,6,18,0,1.0,0.0
+476,SOUTH CAROLINA,Trident Technical College,"17,224",0,0,0,0,54,8,46,0,0.0,0.0
+477,SOUTH CAROLINA,University of South Carolina: Aiken,"3,211",0,0,0,0,48,0,48,0,0.0,0.0
+478,SOUTH CAROLINA,University of South Carolina: Columbia,"31,288",7,0,2,2,312,18,258,36,0.0,3.0
+479,SOUTH CAROLINA,University of South Carolina: Upstate,"5,561",0,0,0,0,27,2,25,0,0.0,0.0
+480,SOUTH CAROLINA,Winthrop University,"6,170",1,0,0,1,47,5,42,0,0.0,0.0
+481,SOUTH DAKOTA,South Dakota State University,"12,583",0,0,0,0,49,0,49,0,0.0,0.0
+482,TENNESSEE,Austin Peay State University,"10,597",1,0,1,0,123,15,108,0,0.0,0.0
+483,TENNESSEE,Christian Brothers University,"1,603",1,0,0,0,19,1,18,0,0.0,1.0
+484,TENNESSEE,Cleveland State Community College,"3,640",0,0,0,0,3,0,3,0,0.0,0.0
+485,TENNESSEE,East Tennessee State University,"15,133",5,0,2,3,83,12,67,4,1.0,0.0
+486,TENNESSEE,Middle Tennessee State University,"25,394",14,0,2,9,227,52,170,5,0.0,3.0
+487,TENNESSEE,Northeast State Community College,"6,446",0,0,0,0,10,1,9,0,0.0,0.0
+488,TENNESSEE,Roane State Community College,"6,508",0,0,0,0,12,0,11,1,0.0,0.0
+489,TENNESSEE,Southwest Tennessee Community College,"12,220",3,0,3,0,37,2,35,0,0.0,0.0
+490,TENNESSEE,Tennessee State University,"8,740",15,0,8,4,170,31,136,3,0.0,3.0
+491,TENNESSEE,Tennessee Technological University,"11,469",5,0,1,4,105,29,73,3,0.0,0.0
+492,TENNESSEE,University of Memphis,"22,139",4,0,2,0,174,18,155,1,0.0,2.0
+493,TENNESSEE,University of Tennessee: Chattanooga,"11,660",4,0,3,1,148,23,124,1,0.0,0.0
+494,TENNESSEE,University of Tennessee: Health Science Center5,0,1,0,0,1,37,3,34,0,0.0,0.0
+495,TENNESSEE,University of Tennessee: Knoxville,"29,833",9,0,3,2,393,47,340,6,2.0,4.0
+496,TENNESSEE,University of Tennessee: Martin,"7,743",1,0,0,1,35,5,30,0,0.0,0.0
+497,TENNESSEE,Vanderbilt University,"12,710",32,0,5,14,361,18,338,5,0.0,13.0
+498,TENNESSEE,Volunteer State Community College,"8,177",0,0,0,0,21,1,20,0,0.0,0.0
+499,TENNESSEE,Walters State Community College,"6,554",0,0,0,0,11,0,11,0,0.0,0.0
+500,TEXAS,Abilene Christian University,"4,367",2,0,0,2,60,1,59,0,0.0,0.0
+501,TEXAS,Alamo Community College District,"58,007",12,0,1,10,227,27,189,11,0.0,1.0
+502,TEXAS,Alvin Community College,"5,109",0,0,0,0,7,0,7,0,0.0,0.0
+503,TEXAS,Amarillo College,"11,530",0,0,0,0,45,3,42,0,0.0,0.0
+504,TEXAS,Angelo State University,"6,888",1,0,0,1,62,8,53,1,0.0,0.0
+505,TEXAS,Austin College,"1,260",0,0,0,0,42,1,41,0,1.0,0.0
+506,TEXAS,Baylor Health Care System5,0,5,0,3,1,567,10,549,8,0.0,1.0
+507,TEXAS,Baylor University Waco,"15,364",10,0,0,7,132,7,120,5,0.0,3.0
+508,TEXAS,Brookhave College,"12,790",0,0,0,0,20,2,18,0,0.0,0.0
+509,TEXAS,Central Texas College,"22,443",2,0,0,1,21,4,17,0,0.0,1.0
+510,TEXAS,College of the Mainland,"4,010",0,0,0,0,16,0,15,1,0.0,0.0
+511,TEXAS,El Paso Community College,"32,127",1,0,0,1,76,1,75,0,0.0,0.0
+512,TEXAS,Grayson College,"4,903",1,0,0,1,21,1,18,2,0.0,0.0
+513,TEXAS,Hardin-Simmons University,"2,301",0,0,0,0,25,0,24,1,0.0,0.0
+514,TEXAS,Houston Community College,"58,476",14,0,3,11,269,15,248,6,0.0,0.0
+515,TEXAS,Lamar University Beaumont,"14,289",5,0,0,4,37,2,33,2,0.0,1.0
+516,TEXAS,Laredo Community College,"9,356",0,0,0,0,17,3,12,2,0.0,0.0
+517,TEXAS,McLennan Community College,"9,302",0,0,0,0,18,0,18,0,0.0,0.0
+518,TEXAS,Midwestern State University,"5,916",1,0,0,1,61,23,38,0,0.0,0.0
+519,TEXAS,Mountain View College,"9,068",1,0,0,1,44,2,39,3,0.0,0.0
+520,TEXAS,North Lake College,"11,397",0,0,0,0,20,0,20,0,0.0,0.0
+521,TEXAS,Paris Junior College,"5,513",1,0,1,0,18,5,13,0,0.0,0.0
+522,TEXAS,Prairie View A&M University,"8,336",13,0,3,6,115,22,85,8,0.0,4.0
+523,TEXAS,Rice University,"6,484",3,0,1,1,195,1,193,1,1.0,1.0
+524,TEXAS,Richland College,"19,552",1,0,1,0,53,2,51,0,0.0,0.0
+525,TEXAS,Southern Methodist University,"10,893",5,0,2,0,121,9,108,4,0.0,3.0
+526,TEXAS,South Plains College,"9,444",2,0,0,2,15,1,14,0,0.0,0.0
+527,TEXAS,Southwestern University,"1,394",0,0,0,0,14,3,11,0,0.0,0.0
+528,TEXAS,Stephen F. Austin State University,"12,999",2,0,0,0,134,13,121,0,0.0,2.0
+529,TEXAS,St. Mary's University,"3,941",1,0,0,0,59,5,52,2,0.0,1.0
+530,TEXAS,Sul Ross State University,"2,680",0,0,0,0,53,9,44,0,1.0,0.0
+531,TEXAS,Tarleton State University,"12,524",4,0,0,2,62,14,48,0,0.0,2.0
+532,TEXAS,Texas A&M International University,"7,213",1,0,0,1,37,6,30,1,0.0,0.0
+533,TEXAS,Texas A&M University: College Station,"50,627",7,0,1,4,394,16,370,8,0.0,2.0
+534,TEXAS,Texas A&M University: Commerce,"11,871",3,0,0,1,67,12,54,1,0.0,2.0
+535,TEXAS,Texas A&M University: Corpus Christi,"10,508",2,0,0,2,77,13,64,0,0.0,0.0
+536,TEXAS,Texas A&M University: Galveston,"2,014",0,0,0,0,21,3,17,1,0.0,0.0
+537,TEXAS,Texas A&M University: Kingsville,"11,350",4,0,0,2,128,22,105,1,2.0,2.0
+538,TEXAS,Texas A&M University: San Antonio5,0,0,0,0,0,9,6,3,0,0.0,0.0
+539,TEXAS,Texas Christian University,"9,727",14,0,3,3,160,24,135,1,1.0,8.0
+540,TEXAS,Texas Southern University,"9,646",22,0,9,10,200,46,149,5,0.0,3.0
+541,TEXAS,Texas State Technical College: Harlingen,"5,509",1,0,0,1,34,1,32,1,0.0,0.0
+542,TEXAS,Texas State Technical College: Waco,"4,277",6,0,1,5,84,24,59,1,0.0,0.0
+543,TEXAS,Texas State Technical College: West Texas,810,0,0,0,0,3,0,3,0,0.0,0.0
+544,TEXAS,Texas State University San Marcos,"34,225",5,0,3,2,297,30,262,5,3.0,0.0
+545,TEXAS,Texas Tech University Lubbock,"32,467",10,0,0,5,300,18,279,3,2.0,5.0
+546,TEXAS,Texas Woman's University,"15,168",0,0,0,0,41,2,39,0,0.0,0.0
+547,TEXAS,Trinity University,"2,458",3,0,0,0,60,9,51,0,0.0,3.0
+548,TEXAS,Tyler Junior College,"11,374",0,0,0,0,66,1,65,0,0.0,0.0
+549,TEXAS,University of Houston: Central Campus,"40,747",25,0,18,3,496,33,440,23,0.0,4.0
+550,TEXAS,University of Houston: Clearlake,"8,153",0,0,0,0,12,1,11,0,0.0,0.0
+551,TEXAS,University of Houston: Downtown Campus,"13,916",1,0,0,1,79,2,77,0,0.0,0.0
+552,TEXAS,University of Mary Hardin-Baylor,"3,287",2,0,0,2,105,9,95,1,0.0,0.0
+553,TEXAS,University of North Texas: Denton,"37,950",8,0,0,6,177,19,156,2,0.0,2.0
+554,TEXAS,University of North Texas: Health Science Center,"1,949",0,0,0,0,17,1,16,0,0.0,0.0
+555,TEXAS,University of Texas: Arlington,"33,239",17,0,6,1,265,18,243,4,0.0,10.0
+556,TEXAS,University of Texas: Austin,"52,186",4,0,2,1,449,39,405,5,0.0,1.0
+557,TEXAS,University of Texas: Brownsville,"13,636",1,0,1,0,71,6,63,2,0.0,0.0
+558,TEXAS,University of Texas: Dallas,"19,727",3,0,1,1,135,15,118,2,0.0,1.0
+559,TEXAS,University of Texas: El Paso,"22,749",5,0,1,3,171,24,144,3,2.0,1.0
+560,TEXAS,"University of Texas: Health Science Center, San Antonio","3,249",2,0,1,1,115,3,111,1,0.0,0.0
+561,TEXAS,"University of Texas: Health Science Center, Tyler5",0,4,0,0,4,12,2,10,0,0.0,0.0
+562,TEXAS,University of Texas: Houston,"4,779",10,0,6,3,331,21,307,3,0.0,1.0
+563,TEXAS,University of Texas: Medical Branch,"3,012",1,0,1,0,93,2,88,3,0.0,0.0
+564,TEXAS,University of Texas: Pan American,"19,302",2,0,0,2,102,0,100,2,0.0,0.0
+565,TEXAS,University of Texas: Permian Basin,"4,021",2,0,0,2,17,2,15,0,0.0,0.0
+566,TEXAS,University of Texas: San Antonio,"30,474",3,0,2,0,179,12,163,4,0.0,1.0
+567,TEXAS,University of Texas: Southwestern Medical School,"2,424",2,1,1,0,152,2,139,11,0.0,0.0
+568,TEXAS,University of Texas: Tyler,"6,858",1,0,1,0,36,7,29,0,0.0,0.0
+569,TEXAS,West Texas A&M University,"7,909",4,0,0,2,50,3,47,0,0.0,2.0
+570,UTAH,Brigham Young University,"34,409",0,0,0,0,229,2,224,3,0.0,0.0
+571,UTAH,Snow College,"4,599",0,0,0,0,28,3,25,0,0.0,0.0
+572,UTAH,Southern Utah University,"8,297",0,0,0,0,26,1,25,0,1.0,0.0
+573,UTAH,University of Utah,"32,388",15,0,1,12,693,150,513,30,1.0,2.0
+574,UTAH,Utah State University Eastern5,0,0,0,0,0,4,1,3,0,0.0,0.0
+575,UTAH,Utah Valley University,"31,562",1,0,1,0,95,2,90,3,0.0,0.0
+576,UTAH,Weber State University,"26,532",0,0,0,0,62,6,54,2,0.0,0.0
+577,VIRGINIA,Christopher Newport University,"5,186",6,0,1,1,128,1,127,0,4.0,4.0
+578,VIRGINIA,College of William and Mary,"8,258",0,0,0,0,215,32,181,2,1.0,0.0
+579,VIRGINIA,Eastern Virginia Medical School,993,0,0,0,0,18,0,18,0,0.0,0.0
+580,VIRGINIA,Emory and Henry College,945,0,0,0,0,0,0,0,0,0.0,0.0
+581,VIRGINIA,Ferrum College,"1,510",2,0,1,0,27,3,24,0,1.0,1.0
+582,VIRGINIA,George Mason University,"32,961",4,0,1,2,188,7,179,2,2.0,1.0
+583,VIRGINIA,Hampton University,"4,765",1,0,0,1,55,6,49,0,0.0,0.0
+584,VIRGINIA,James Madison University,"19,927",2,0,0,2,121,6,115,0,1.0,0.0
+585,VIRGINIA,J. Sargeant Reynolds Community College,"12,846",0,0,0,0,34,0,34,0,0.0,0.0
+586,VIRGINIA,Longwood University,"4,834",2,1,0,1,61,10,43,8,0.0,0.0
+587,VIRGINIA,Lord Fairfax Community College,"7,288",0,0,0,0,0,0,0,0,0.0,0.0
+588,VIRGINIA,Norfolk State University,"7,100",12,0,5,5,137,26,110,1,1.0,2.0
+589,VIRGINIA,Northern Virginia Community College,"51,864",4,0,0,2,112,0,111,1,0.0,2.0
+590,VIRGINIA,Old Dominion University,"24,670",18,0,7,7,329,36,287,6,2.0,4.0
+591,VIRGINIA,Radford University,"9,573",3,0,0,0,58,5,53,0,4.0,3.0
+592,VIRGINIA,Richard Bland College,"1,532",0,0,0,0,11,1,10,0,0.0,0.0
+593,VIRGINIA,University of Mary Washington,"5,093",3,0,2,0,16,2,14,0,0.0,1.0
+594,VIRGINIA,University of Richmond,"4,361",3,0,0,0,83,8,72,3,1.0,3.0
+595,VIRGINIA,University of Virginia,"23,907",11,0,0,6,304,60,222,22,0.0,5.0
+596,VIRGINIA,University of Virginia's College at Wise,"2,420",1,0,0,0,3,0,3,0,0.0,1.0
+597,VIRGINIA,Virginia Commonwealth University,"31,445",13,0,4,9,548,23,511,14,1.0,0.0
+598,VIRGINIA,Virginia Military Institute,"1,664",1,0,0,1,22,6,16,0,0.0,0.0
+599,VIRGINIA,Virginia Polytechnic Institute and State University,"31,087",5,0,1,0,212,68,142,2,1.0,4.0
+600,VIRGINIA,Virginia State University,"6,208",8,1,3,4,126,1,124,1,0.0,0.0
+601,VIRGINIA,Virginia Western Community College,"8,440",0,0,0,0,9,0,9,0,0.0,0.0
+602,WASHINGTON,Central Washington University,"11,268",3,1,1,0,112,41,70,1,0.0,1.0
+603,WASHINGTON,Eastern Washington University,"12,587",4,0,0,2,74,12,62,0,1.0,2.0
+604,WASHINGTON,Evergreen State College,"4,509",4,0,1,0,109,16,93,0,0.0,3.0
+605,WASHINGTON,University of Washington,"43,485",10,0,5,4,611,65,532,14,1.0,1.0
+606,WASHINGTON,Washington State University: Pullman,"27,679",18,0,1,6,205,28,172,5,0.0,11.0
+607,WASHINGTON,Washington State University: Vancouver5,0,0,0,0,0,10,1,8,1,0.0,0.0
+608,WASHINGTON,Western Washington University,"14,833",1,0,0,0,148,7,138,3,0.0,1.0
+609,WEST VIRGINIA,Fairmont State University,"4,451",2,0,2,0,32,5,25,2,0.0,0.0
+610,WEST VIRGINIA,Marshall University,"13,708",11,0,1,10,61,3,58,0,0.0,0.0
+611,WEST VIRGINIA,Potomac State College,"1,781",0,0,0,0,9,6,3,0,0.0,0.0
+612,WEST VIRGINIA,Shepherd University,"4,326",4,0,1,0,15,3,12,0,0.0,3.0
+613,WEST VIRGINIA,West Virginia State University,"2,644",1,0,1,0,22,8,13,1,0.0,0.0
+614,WEST VIRGINIA,West Virginia Tech,"1,107",0,0,0,0,2,1,1,0,0.0,0.0
+615,WEST VIRGINIA,West Virginia University,"29,707",18,0,1,13,109,1,107,1,1.0,4.0
+616,WISCONSIN,University of Wisconsin: Eau Claire,"11,067",4,0,0,4,59,1,58,0,0.0,0.0
+617,WISCONSIN,University of Wisconsin: Green Bay,"6,801",0,0,0,0,17,0,17,0,0.0,0.0
+618,WISCONSIN,University of Wisconsin: La Crosse,"10,385",0,0,0,0,0,0,0,0,0.0,0.0
+619,WISCONSIN,University of Wisconsin: Madison,"42,269",23,0,1,20,345,50,292,3,2.0,2.0
+620,WISCONSIN,University of Wisconsin: Milwaukee,"28,712",6,0,1,0,336,13,323,0,0.0,5.0
+621,WISCONSIN,University of Wisconsin: Oshkosh,"13,519",2,0,0,0,49,0,48,1,1.0,2.0
+622,WISCONSIN,University of Wisconsin: Parkside,"4,731",2,0,0,1,34,4,30,0,0.0,1.0
+623,WISCONSIN,University of Wisconsin: Platteville,"8,668",5,0,0,1,66,2,62,2,2.0,4.0
+624,WISCONSIN,University of Wisconsin: River Falls,"6,443",1,0,0,1,38,2,36,0,0.0,0.0
+625,WISCONSIN,University of Wisconsin: Stevens Point,"9,695",0,0,0,0,78,0,78,0,0.0,0.0
+626,WISCONSIN,University of Wisconsin: Stout,"9,283",0,0,0,0,85,3,81,1,0.0,0.0
+627,WISCONSIN,University of Wisconsin: Superior,"2,697",1,0,0,0,12,1,11,0,0.0,1.0
+628,WISCONSIN,University of Wisconsin: Whitewater,"12,028",0,0,0,0,53,4,49,0,0.0,0.0
+629,WYOMING,Northern Wyoming Community College District,"4,236",0,0,0,0,8,2,6,0,0.0,0.0
+630,WYOMING,University of Wyoming,"12,903",1,0,1,0,132,15,114,3,0.0,0.0

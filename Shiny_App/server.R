@@ -14,9 +14,20 @@ library(maps)
 function(input, output) {
    us_crime <- read.csv('Data/01_crime_in_the_united_states_1996-2015.csv')
    data <- read.csv("Data/2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
-  
+   college <- read.csv('./Data/College_Crime_Rate.csv')
+   states <- unique(college$State)
+   states <- as.character(states) # gets a vector of all states
+   
    choices <- reactive({
       return(paste(input$choice,collapse=", "))
+   })
+   
+   rate_crime <- reactive({
+      return(input$crime)
+   })
+   
+   state_chosen <- reactive({
+      return(input$state)
    })
    
    
@@ -58,16 +69,17 @@ function(input, output) {
    #data$STATE_FIPS <- factor(data$STATE_FIPS)
    states <- merge(states_shp, data, by="STATE_FIPS",all=TRUE)
    
-   rate_crime <- reactive({
-      return(input$crime)
-   })
+   
+   
+   #need o fix last line of state_popup
+   #  - trying to output the rate of crime, but cant figure out how to get the state clicked
    
    output$mymap <- renderLeaflet({
       pal <- colorQuantile("Oranges",NULL,n=5)
       state_popup <-paste("<strong>State: </strong>", states$State, 
                           "<br><strong>Violent Crime:</strong>", rate_crime(),
                           "<br><strong> Year: </strong>", '2008',
-                          "<br><strong> per 100,000,000 people </strong>")
+                          "<br><strong>Rate:</strong>", states$Murder)
       
       leaflet(data = states) %>%
          setView(lng=-96.416015625, lat= 39.639537564366684, zoom = 4.0) %>%
@@ -79,6 +91,24 @@ function(input, output) {
                      color="#2739c4",
                      weight=1,
                      popup = state_popup)
+   })
+   
+# Now formatting data for University Bar Graph
+   college$X<-NULL
+   
+   output$BarChart <- renderPlot({
+      selection <- subset(college, State==state_chosen()) #get all universities within chosen state
+      selection <-selection[, -c(1,3)] # remove State, and Student_Enrollement columns
+      
+      selection_crimes<-melt(selection, id.vars='School', variable_name='Crime')
+      colnames(selection_crimes)[3] <- 'Count'
+      selection_crimes$Count<-as.numeric(as.character(selection_crimes$Count))
+      
+      univ <- ggplot(selection_crimes,aes(x=School,y = Count, fill=Crime)) + 
+         geom_bar(stat='identity') +
+         theme(axis.text.x = element_text(angle=90,hjust=1)) +
+         labs(x='University', y='Ocurrences')
+         print(univ)
    })
    
 }

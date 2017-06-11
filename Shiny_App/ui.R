@@ -4,7 +4,8 @@ library(ggplot2)
 library(leaflet)
 library(reshape)
 
-
+setwd("/Users/Husane/School/CalPoly/02.2016-17/03.S17/Stat_331/Final_Project_Repo/Stat331-Final_Project/Shiny_App")
+read.csv('states.csv')
 header <- dashboardHeader(
    title = "Crime in the U.S.",
    titleWidth = 250
@@ -84,9 +85,20 @@ body <- dashboardBody(
          tabName = 'University',
          h2('Crime at U.S. Universities', style=('text-align:center;')),
          
-         fluidRow(),
+         fluidRow(
+            box(title='State of user_chosen', width = 12, 
+                status='primary', plotOutput('BarChart', height = 350))
+         ),
          
-         fluidRow()
+         fluidRow(
+            column(6,
+                   box(width = NULL, status = "warning", 
+                       selectInput("state", "Select State",
+                                   choices = states,
+                                   selected = states['CALIFORNIA'])
+                   )
+            )
+         )
       )
    )
 )
