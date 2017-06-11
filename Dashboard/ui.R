@@ -52,13 +52,21 @@ body <- dashboardBody(
          ),
          
          fluidRow(
-            box(width = NULL, status = "warning", 
-                selectInput("crime", "Select Crime",
-                            choices = c("Murder" = 'Murder',"Rape" = 'Rape',
-                                        "Assult" = 'Assult',
-                                        "Burglary" = 'Burglary'),
-                            selected = "Murder")
+            column(6,
+               box(width = NULL, status = "warning", 
+                  selectInput("crime", "Select Crime",
+                              choices = c("Murder" = 'Murder',"Rape" = 'Rape',
+                                          "Assult" = 'Assult',
+                                          "Burglary" = 'Burglary'),
+                              selected = "Murder")
                )
+            ),
+            column(6,
+               p(
+                  class = "text-muted",
+                  paste("Note: Click on any State to get detailed information")
+               )   
+            )
          )
       ),
       

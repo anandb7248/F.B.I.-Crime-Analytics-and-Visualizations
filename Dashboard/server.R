@@ -12,8 +12,8 @@ library(maps)
 
 
 function(input, output) {
-   us_crime <- read.csv('01_crime_in_the_united_states_1996-2015.csv')
-   data <- read.csv("2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
+   us_crime <- read.csv('Data/01_crime_in_the_united_states_1996-2015.csv')
+   data <- read.csv("Data/2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
   
    choices <- reactive({
       return(paste(input$choice,collapse=", "))
