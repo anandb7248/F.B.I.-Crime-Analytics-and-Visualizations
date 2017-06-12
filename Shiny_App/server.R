@@ -9,7 +9,6 @@ library(magrittr)
 library(leaflet)
 library(readxl)
 library(maps)
-library(plotrix)
 
 
 function(input, output) {
@@ -17,7 +16,7 @@ function(input, output) {
    data <- read.csv("Data/2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
    college <- read.csv('./Data/College_Crime_Rate.csv')
    states <- unique(college$State)
-   states <- as.character(states) # gets a vector of all states
+   tates <- as.character(states) # gets a vector of all states
    
    choices <- reactive({
       return(paste(input$choice,collapse=", "))
@@ -36,8 +35,8 @@ function(input, output) {
       years <- subset(us_crime, select = c("year",input$choice))
       mdf <- melt(years, id.vars="year")
       g<-ggplot(mdf, aes(x=year,y=value,colour=variable)) + 
-      xlim(input$range) + labs(x = "Year", y = paste("Crime Rate per 100,000 Inhabitants")) + 
-      title(main = 'Violent Crime Rates in the U.S.') + geom_line()
+         xlim(input$range) + labs(x = "Year", y = paste("Crime Rate per 100,000 Inhabitants")) + 
+         title(main = 'Violent Crime Rates in the U.S.') + geom_line()
       print(g)
    })
    
@@ -82,39 +81,22 @@ function(input, output) {
                           "<br><strong> Year: </strong>", '2008',
                           "<br><strong>Rate:</strong>", states$Murder)
       
-      #values = ~data[ , rate_crime()] 
       leaflet(data = states) %>%
          setView(lng=-96.416015625, lat= 39.639537564366684, zoom = 4.0) %>%
          addProviderTiles("CartoDB.Positron") %>%
-         addLegend(pal = pal, values = ~data[ , rate_crime()], opacity = 0.7, 
+         addLegend(pal = pal, values = data[,rate_crime()], opacity = 0.7, 
                    title = 'Rate per 100,000', position = "bottomright") %>%
          addPolygons(fillColor = ~pal(data[ , rate_crime()]),
                      fillOpacity=0.8,
                      color="#2739c4",
-                     weight=2,
+                     weight=1,
                      popup = state_popup)
    })
    
+   # Now formatting data for University Bar Graph
+   college$X<-NULL
    
-# Now formatting data for 3D Pie Chart
-   output$PieChart <- renderPlot({
-      
-      pieval<-c(2,4,6,8)
-      bisectors<-pie3D(pieval,explode=0.1,main="Proportions of Violent Crime in U.S.")
-      pielabels<-
-         c("We hate\n pies","We oppose\n  pies","We don't\n  care","We just love pies")
-      pie3D.labels(bisectors,labels=pielabels)
-      
-      print(bisectors)
-      
-   })   
-   
-   
-   
-   
-# Now formatting data for University Bar Graph
    output$BarChart <- renderPlot({
-      college$X <- NULL
       selection <- subset(college, State==state_chosen()) #get all universities within chosen state
       selection <-selection[, -c(1,3)] # remove State, and Student_Enrollement columns
       
@@ -126,7 +108,7 @@ function(input, output) {
          geom_bar(stat='identity') +
          theme(axis.text.x = element_text(angle=90,hjust=1)) +
          labs(x='University', y='Ocurrences')
-         print(univ)
+      print(univ)
    })
    
 }
