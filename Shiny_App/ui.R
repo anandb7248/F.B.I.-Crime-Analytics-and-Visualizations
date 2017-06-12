@@ -10,13 +10,14 @@ library(magrittr)
 library(leaflet)
 library(readxl)
 library(maps)
+library(plotrix)
 
 
 setwd("/Users/Husane/School/CalPoly/02.2016-17/03.S17/Stat_331/Final_Project_Repo/Stat331-Final_Project/Shiny_App")
-states <- read.csv('./Data/states.csv')
-states$X <- NULL
-colnames(states) <- 'state'
-states$state <- as.character(states$state)
+univ_states <- read.csv('./Data/states.csv')
+univ_states$X <- NULL
+colnames(univ_states) <- 'state'
+univ_states$state <- as.character(univ_states$state)
 header <- dashboardHeader(
    title = "Crime in the U.S.",
    titleWidth = 250
@@ -74,6 +75,7 @@ body <- dashboardBody(
                    )
             ),
             column(6,
+                   h4("Data from 2008", style=('text-align: center;')),
                    p(
                       class = "text-muted",
                       paste("Note: Click on any State to get detailed information")
@@ -87,7 +89,13 @@ body <- dashboardBody(
          tabName = 'PieChart',
          h2('Proportion of Violent Crimes per Year', style=('text-align: center;')),
          
-         fluidRow(),
+         fluidRow(
+           # column(6,
+               #(P)
+               
+            #)
+            #plotOutput('PieChart', height = 200)
+         ),
          
          fluidRow()
       ),
@@ -105,8 +113,8 @@ body <- dashboardBody(
             column(6,
                    box(width = NULL, status = "warning", 
                        selectInput("state", "Select State",
-                                   choices = states,
-                                   selected = states$state[5])
+                                   choices = univ_states,
+                                   selected = univ_states$state[5])
                    )
             )
          )

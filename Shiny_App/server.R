@@ -15,8 +15,8 @@ function(input, output) {
    us_crime <- read.csv('Data/01_crime_in_the_united_states_1996-2015.csv')
    data <- read.csv("Data/2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
    college <- read.csv('./Data/College_Crime_Rate.csv')
-   states <- unique(college$State)
-   tates <- as.character(states) # gets a vector of all states
+   #states <- unique(college$State)
+   #states <- as.character(states) # gets a vector of all states
    
    choices <- reactive({
       return(paste(input$choice,collapse=", "))
@@ -84,14 +84,27 @@ function(input, output) {
       leaflet(data = states) %>%
          setView(lng=-96.416015625, lat= 39.639537564366684, zoom = 4.0) %>%
          addProviderTiles("CartoDB.Positron") %>%
-         addLegend(pal = pal, values = data[,rate_crime()], opacity = 0.7, 
-                   title = 'Rate per 100,000', position = "bottomright") %>%
-         addPolygons(fillColor = ~pal(data[ , rate_crime()]),
+         #addLegend(pal = pal, values = data[,rate_crime()], opacity = 0.7, 
+         #          title = 'Rate per 100,000', position = "bottomright") %>%
+         addPolygons(fillColor = ~pal(data[, rate_crime()]),
                      fillOpacity=0.8,
                      color="#2739c4",
                      weight=1,
                      popup = state_popup)
    })
+   
+   # Now formatting data for 3D Pie Chart
+   output$PieChart <- renderPlot({
+      
+      pieval<-c(2,4,6,8)
+      bisectors<-pie3D(pieval,explode=0.1,main="Proportions of Violent Crime in U.S.")
+      pielabels<-
+         c("We hate\n pies","We oppose\n  pies","We don't\n  care","We just love pies")
+      pie3D.labels(bisectors,labels=pielabels)
+      
+      print(bisectors)
+      
+   })   
    
    # Now formatting data for University Bar Graph
    college$X<-NULL
