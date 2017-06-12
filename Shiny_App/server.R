@@ -1,7 +1,7 @@
 library(shiny)
 library(shinydashboard)
 library(ggplot2)
-library(reshape)
+library(reshape2)
 library(sqldf)
 library(rgdal)
 library(cdlTools)
@@ -9,14 +9,14 @@ library(magrittr)
 library(leaflet)
 library(readxl)
 library(maps)
+library(scales)
 
 
 function(input, output) {
    us_crime <- read.csv('Data/01_crime_in_the_united_states_1996-2015.csv')
    data <- read.csv("Data/2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
    college <- read.csv('./Data/College_Crime_Rate.csv')
-   #states <- unique(college$State)
-   #states <- as.character(states) # gets a vector of all states
+   metro_areas <- read.csv('./Data/MetroAreas.csv')
    
    choices <- reactive({
       return(paste(input$choice,collapse=", "))
@@ -30,6 +30,19 @@ function(input, output) {
       return(input$state)
    })
    
+   pie_state <- reactive({
+      return(input$pie)
+   })
+   
+   area_chosen <- reactive({
+      
+      df <- subset(metro_areas,Metro_Area == input$area, select = c(Murder, Rape, 
+                                                             Robbery, Assault, Vehicle_Theft))
+      df <- melt(df)
+      colnames(df) <- c('Crime', 'Count')
+      return(df)
+
+   })
    
    output$LineChart <- renderPlot({
       years <- subset(us_crime, select = c("year",input$choice))
@@ -74,18 +87,18 @@ function(input, output) {
    
    # Created a reactive variable, that will select a specific subset of dataframe, based on users selected input.
    reactCrimeRate <- reactive({
-     if(input$crime == "Murder"){
-       return(states$Murder)
-     }
-     if(input$crime == "Rape"){
-       return(states$Rape)
-     }
-     if(input$crime == "Assault"){
-       return(states$Assault)
-     }
-     if(input$crime == "Burglary"){
-       return(states$Burglary)
-     }
+      if(input$crime == "Murder"){
+         return(states$Murder)
+      }
+      if(input$crime == "Rape"){
+         return(states$Rape)
+      }
+      if(input$crime == "Assault"){
+         return(states$Assault)
+      }
+      if(input$crime == "Burglary"){
+         return(states$Burglary)
+      }
    })
    
    output$mymap <- renderLeaflet({
@@ -107,17 +120,15 @@ function(input, output) {
                      popup = state_popup)
    })
    
+   
+   
    # Now formatting data for 3D Pie Chart
    output$PieChart <- renderPlot({
+      pie <- ggplot(area_chosen(), aes(x='', y=Count, fill=Crime))+
+         geom_bar(width = 1, stat = 'identity') + coord_polar('y', start = 0) + theme_bw() + 
+         theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())
       
-      pieval<-c(2,4,6,8)
-      bisectors<-pie3D(pieval,explode=0.1,main="Proportions of Violent Crime in U.S.")
-      pielabels<-
-         c("We hate\n pies","We oppose\n  pies","We don't\n  care","We just love pies")
-      pie3D.labels(bisectors,labels=pielabels)
-      
-      print(bisectors)
-      
+      print(pie)
    })   
    
    # Now formatting data for University Bar Graph

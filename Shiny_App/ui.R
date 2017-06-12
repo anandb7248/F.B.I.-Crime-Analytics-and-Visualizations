@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(ggplot2)
 library(leaflet)
-library(reshape)
+library(reshape2)
 library(sqldf)
 library(rgdal)
 library(cdlTools)
@@ -15,12 +15,17 @@ library(plotrix)
 
 setwd("/Users/Husane/School/CalPoly/02.2016-17/03.S17/Stat_331/Final_Project_Repo/Stat331-Final_Project/Shiny_App")
 univ_states <- read.csv('./Data/states.csv')
+areas <- read.csv('./Data/areas.csv')
 univ_states$X <- NULL
+areas$X <- NULL
 colnames(univ_states) <- 'state'
 univ_states$state <- as.character(univ_states$state)
+pie_states <- univ_states
+
+
 header <- dashboardHeader(
-   title = "Crime in the U.S.",
-   titleWidth = 250
+   title = "F.B.I. Crime Analytics and Visualizations",
+   titleWidth = 450
 )
 
 sidebar <-   dashboardSidebar(
@@ -87,19 +92,24 @@ body <- dashboardBody(
       #third tab item
       tabItem(
          tabName = 'PieChart',
-         h2('Proportion of Violent Crimes per Year', style=('text-align: center;')),
-         
          fluidRow(
-           # column(6,
-               #(P)
-               
-            #)
-            #plotOutput('PieChart', height = 200)
+            column(12,
+               box(title = 'Proportion of Crime by Metropolitan Statistical Area', width = 12,
+                   status= 'primary', plotOutput('PieChart', height = 450))
+            )
          ),
-         
-         fluidRow()
+            
+         fluidRow(
+            column(12,
+               box(width = NULL, status = "warning", 
+                  selectInput("area", "Select Metroplitan Statistical Area",
+                     choices = areas, selected = metro_areas$Metro_Area[10])
+                  )
+            )
+         )
       ),
       
+      # Format for The 4th Item
       tabItem(
          tabName = 'University',
          h2('Crime at U.S. Universities in 2015', style=('text-align:center;')),

@@ -7,7 +7,7 @@ pie_crimes <- washington[, -c(2, 6, 7, 8)] #remove Property, Burglary, and Larce
 pie_chart <-melt(pie_crimes, id.vars='School', variable_name='Crime')
 colnames(pie_chart) <- c('School', 'Crime', 'Count')
 
-bp<- ggplot(pie_chart, aes(x="Crime", y=Count, fill=Crime))+
+bp <- ggplot(pie_chart, aes(x="Crime", y=Count, fill=Crime))+
    geom_bar(width = 1, stat = "identity")
 bp
 
