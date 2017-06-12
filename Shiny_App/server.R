@@ -23,7 +23,7 @@ function(input, output) {
    })
    
    rate_crime <- reactive({
-      return(input$crime)
+      return(as.character(input$crime))
    })
    
    state_chosen <- reactive({
@@ -69,24 +69,38 @@ function(input, output) {
    #data$STATE_FIPS <- factor(data$STATE_FIPS)
    states <- merge(states_shp, data, by="STATE_FIPS",all=TRUE)
    
-   
-   
    #need o fix last line of state_popup
    #  - trying to output the rate of crime, but cant figure out how to get the state clicked
    
+   # Created a reactive variable, that will select a specific subset of dataframe, based on users selected input.
+   reactCrimeRate <- reactive({
+     if(input$crime == "Murder"){
+       return(states$Murder)
+     }
+     if(input$crime == "Rape"){
+       return(states$Rape)
+     }
+     if(input$crime == "Assault"){
+       return(states$Assault)
+     }
+     if(input$crime == "Burglary"){
+       return(states$Burglary)
+     }
+   })
+   
    output$mymap <- renderLeaflet({
-      pal <- colorQuantile("Oranges",NULL,n=5)
+      pal <- colorQuantile("Oranges",NULL,n=10)
       state_popup <-paste("<strong>State: </strong>", states$State, 
-                          "<br><strong>Violent Crime:</strong>", rate_crime(),
+                          "<br><strong>Violent Crime:</strong>", input$crime,
                           "<br><strong> Year: </strong>", '2008',
-                          "<br><strong>Rate:</strong>", states$Murder)
+                          "<br><strong>Rate:</strong>", reactCrimeRate())
       
       leaflet(data = states) %>%
          setView(lng=-96.416015625, lat= 39.639537564366684, zoom = 4.0) %>%
          addProviderTiles("CartoDB.Positron") %>%
          #addLegend(pal = pal, values = data[,rate_crime()], opacity = 0.7, 
          #          title = 'Rate per 100,000', position = "bottomright") %>%
-         addPolygons(fillColor = ~pal(data[, rate_crime()]),
+         addPolygons(fillColor = ~pal(reactCrimeRate()),
                      fillOpacity=0.8,
                      color="#2739c4",
                      weight=1,
@@ -125,3 +139,4 @@ function(input, output) {
    })
    
 }
+
