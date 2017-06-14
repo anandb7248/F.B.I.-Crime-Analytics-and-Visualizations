@@ -12,8 +12,6 @@ library(readxl)
 library(maps)
 library(plotrix)
 
-
-setwd("/Users/Husane/School/CalPoly/02.2016-17/03.S17/Stat_331/Final_Project_Repo/Stat331-Final_Project/Shiny_App")
 univ_states <- read.csv('./Data/states.csv')
 areas <- read.csv('./Data/areas.csv')
 univ_states$X <- NULL
@@ -21,6 +19,7 @@ areas$X <- NULL
 colnames(univ_states) <- 'state'
 univ_states$state <- as.character(univ_states$state)
 pie_states <- univ_states
+metro_areas <- read.csv('./Data/MetroAreas.csv')
 
 
 header <- dashboardHeader(
