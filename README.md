@@ -1,6 +1,14 @@
 # Stat331-Final_Project
 > Stat 331 Final Project. Taken Spring 2017 at California Polytechnic San Luis Obispo. The project calls for a creation of an interactive web app using R Studio and the Shiny Library.
 
+> https://user-images.githubusercontent.com/19628705/27119936-a198d872-5096-11e7-9c92-fe801e97cefc.png 
+
+> https://user-images.githubusercontent.com/19628705/27119938-a3990b7e-5096-11e7-8cbe-6843404e1573.png
+
+> https://user-images.githubusercontent.com/19628705/27119945-a5efd538-5096-11e7-961c-62cd1259357f.png
+
+> https://user-images.githubusercontent.com/19628705/27119947-a7f6fd52-5096-11e7-86a1-f21c5317eaf0.png
+
 ## Description of Data
 > Our data is from the Federal Bureau of Ivestigation. The Data describes violent crime in the United States from 1996 to 2015. The FBI has partitioned violent crime into four sets with decreasing seriousness: Murder, Rape, Robbery, and Aggravated Assult. If a crime has multiple offenses occuring, only the most serious offense is counted. The data is composed into 24 different tables, where each table represents different granularity of focus.
 
