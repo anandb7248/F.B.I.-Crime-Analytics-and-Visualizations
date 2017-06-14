@@ -16,7 +16,9 @@ function(input, output) {
    us_crime <- read.csv('Data/01_crime_in_the_united_states_1996-2015.csv')
    data <- read.csv("Data/2015_crimerates_by_state.csv",stringsAsFactors = F) #used to output choropleth plot
    college <- read.csv('./Data/College_Crime_Rate.csv')
-   metro_areas <- read.csv('./Data/MetroAreas.csv')
+   
+   # it says metro_areas cannot be found, but when we run this line by itself we can read in the file
+   metro_areas <- read.csv('./Data/MetroAreas.csv') 
    
    choices <- reactive({
       return(paste(input$choice,collapse=", "))
@@ -135,11 +137,12 @@ function(input, output) {
    college$X<-NULL
    
    output$BarChart <- renderPlot({
-      selection <- subset(college, State==state_chosen()) #get all universities within chosen state
+     #get all universities within chosen state
+      selection <- subset(college, State==state_chosen())
       selection <-selection[, -c(1,3)] # remove State, and Student_Enrollement columns
       
       selection_crimes<-melt(selection, id.vars='School', variable_name='Crime')
-      colnames(selection_crimes)[3] <- 'Count'
+      colnames(selection_crimes) <- c('School', 'Crime', 'Count')
       selection_crimes$Count<-as.numeric(as.character(selection_crimes$Count))
       
       univ <- ggplot(selection_crimes,aes(x=School,y = Count, fill=Crime)) + 
